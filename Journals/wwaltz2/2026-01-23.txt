@@ -1,0 +1,13 @@
+The goal of today's meeting with Joy O'Keefe was to understand the intended use of the heterodyne she wanted ECE445 students to design and to construct during this spring semester.
+
+During the meeting, Dr. O'Keefe explained the difference between zero-crossing, time expansion, full spectrum listening techniques, and heterodynes. Due to being the cheapest option, and due to Dr. O'Keefe wanting something she may one day be able to mass produce, she assured that we should design a heterodyne. O'Keefe also expressed her wishes for the parts of the device to be purchased from within the USA.
+
+She recommended several brands and companies for us to look into while we designed the hardware component of the bat detector: Anabat, Audiomoth, PiPistril, Acorn Naturals, and Wildlife Acoustics. She was also kind enough to give us two devices to borrow and to inspect for Research and Design purposes.
+
+Finally, we decided that a preliminary design should at LEAST include a freq range between 15-100 kHz, with a dial for changing the detection frequency, a green light (or other unbright light source) to light up the dial for sight in the dark, a power button, a volume dial, a 3.5mm audio auxiliary jack for wired earbud/headphone use, some sort of weather proofing (whether it be 3D printed case or some sort of pouch), and a connection to external batteries.
+
+If we decide to do more with this preliminary design, some thoughts are: add a digital display, add a rechargeable internal battery, and add an SD card for Full Spectrum recording.
+
+The next steps would be to research the hardware components needed for the heterodyne, and provide Dr. O'Keefe with a budget for the preliminary design, as well as the cost of adding these extra features.
+
+ 
