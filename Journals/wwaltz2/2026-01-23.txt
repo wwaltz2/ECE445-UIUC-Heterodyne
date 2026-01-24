@@ -1,6 +1,6 @@
 The goal of today's meeting with Joy O'Keefe was to understand the intended use of the heterodyne she wanted ECE445 students to design and to construct during this spring semester.
 
-During the meeting, Dr. O'Keefe explained the difference between zero-crossing, time expansion, full spectrum listening techniques, and heterodynes. Due to being the cheapest option, and due to Dr. O'Keefe wanting something she may one day be able to mass produce, she assured that we should design a heterodyne. O'Keefe also expressed her wishes for the parts of the device to be purchased from within the USA.
+During the meeting, Dr. O'Keefe explained the difference between zero-crossing, time expansion, full spectrum listening techniques, and heterodynes. Due to being the cheapest option, and due to Dr. O'Keefe wanting something she may one day be able to mass produce, she asserted that we should design a heterodyne. O'Keefe also expressed her wishes for the parts of the device to be purchased from within the USA.
 
 She recommended several brands and companies for us to look into while we designed the hardware component of the bat detector: Anabat, Audiomoth, PiPistril, Acorn Naturals, and Wildlife Acoustics. She was also kind enough to give us two devices to borrow and to inspect for Research and Design purposes.
 
