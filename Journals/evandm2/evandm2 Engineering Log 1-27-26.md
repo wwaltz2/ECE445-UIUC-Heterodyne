@@ -12,3 +12,5 @@ We learned today that a transducer includes microphones! Looking for ultrasonic 
 The PiPistrell is open-source, we'll take a look at what microphone is installed.
 
 I initially thought of making a mixer and oscillator circuit myself, but the Magenta Bat4 includes the SA612A, which apparently works up to 500MHz. I guess they work well at low frequencies too! The amplifier portion will have to be done by hand as circuits like this can be very dependent on use. A bunch of research is in order, but much of it should be simpler than working at very high frequencies. Standard op-amps weren't very difficult to find, and the TLV9052 was present on the Bat4, which likely places it as a good option.
+
+RFA was finished, and as of the next day, we were successfully approved.
