@@ -13,3 +13,5 @@ Wanted us to put a bill of materials together ASAP. That's been done, many items
 Got our locker and CFOP number for ordering stuff. Discussed the viability of using the machine shop, but 3D printing our chassis seems to be the best option as long as we do it early.
 
 ### PCB info
+
+We've decided on most of the major components of our design, some being directly lifted from the Magenta Bat4 that Dr. O'Keefe graciously gifted us for R&D purposes. If it ain't broke, don't fix it.
