@@ -1,5 +1,5 @@
 ## ECE445 Engineering Log #1
-January 23, 2026
+January 23, 2026\
 Evan McGowan
 
 Today’s focus was on the meeting.
