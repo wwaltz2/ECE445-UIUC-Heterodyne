@@ -1,4 +1,4 @@
-ECE445 Engineering Log #1
+## ECE445 Engineering Log #1
 January 23, 2026
 Evan McGowan
 
