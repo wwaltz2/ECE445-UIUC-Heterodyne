@@ -1,0 +1,4 @@
+Over the past few days we have finished the project proposal and we got a solid bill of materials. We realized a new challenge when it comes prototyping over breadboard: We'd need DIP alternatives for
+our SOIC chips. This will end up being interesting as if we can't find some alternatives, we may not be able to test them over breadboard. Also due to supply strains, we will need to develop our own
+mixer module for the project. This will likely take up a good bulk of our work on the project. We will also need to make a team contract by Friday of this week and definitively sort out the work
+distribution.
