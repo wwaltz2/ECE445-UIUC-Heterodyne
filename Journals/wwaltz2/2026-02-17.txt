@@ -1,0 +1,20 @@
+It is I, Bill Waltz, once again, after a month of doing RFA and Proposal and initial research, now it is time to design, and thus I should be doing my engineering Journal.
+
+Our first stage of research was into the mixing circuitry of our heterodyne, since we wanted a challenge (and since the chip we would've used is no longer on the market). We first had to preamplify the output from the microphone before it was passed to the mixer, so I had to investigate the different configurations for preamplification that we could use.
+
+Source: https://invensense.tdk.com/wp-content/uploads/2015/02/Op-Amps-for-MEMS-Microphone-Preamp-Circuits.pdf
+https://www.origin-ic.com/blog/op-amp-inverting-and-noninverting-amplifier-circuits-guide/47942
+
+For now, we will try an inverting preamp circuit, since the documentation above claimed it to be best for mixing. Now, all that had to be done was to decide the values of the resistors and capacitors to complete the preamp design.
+
+We know that gain G = -R_o/R_i, and input impedence is R_i, and invensense claims "A good rule of thumb is to select the cutoff frequency at least one octave below that of the microphone, unless a specific high-pass characteristic is sought."
+
+So, we know we want to only measure frequency from 15kHz-100kHz, so we will select a high-pass filter of 7458.62 Hz in our preamp hardware. Our microphone's output impedance is typically 300 Ohms, so if we select a R_i of 3kOhm, then we will only have a 9% loss of microphone output. 
+
+If we use the 3kOhm R_i resister, we can then find the capacitor value using the highpass filter frequency formula f_c = 1/2*pi*R_i*C.
+
+With f_c = 7500 and R_i = 3000, we get C = 0.00000000707, so we will find something close to 7nF capacitors.
+Finally, the R_o resistor will just be dependent on how much amplification we need. For now, we will just try 30kOhm.
+
+Finished Preamp Schematic on KiCad
+
