@@ -1,0 +1,5 @@
+Now I begin working on the speaker system schematic, not much to research, simply need to hook up the components according to the schematic for the audio amplifying chip shown here:
+
+https://www.ti.com/lit/ds/symlink/lm386.pdf
+
+The only real question that needed answering was if we needed bypass pin 7 connected, and, if so, what capacitance would we need? Looks like we should connect it, since we may have amplification up to 200 dB, and we should connect it to 0.1uF ceramic capacitor and ground in series, as is standard.
