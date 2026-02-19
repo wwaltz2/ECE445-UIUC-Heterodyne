@@ -3474,12 +3474,6 @@
 		(uuid "2c3cf229-3157-4492-b15a-13d210b253ac")
 	)
 	(junction
-		(at 207.01 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35231905-d179-4bac-8e4d-d205a68e06dd")
-	)
-	(junction
 		(at 187.96 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3490,6 +3484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45480ac2-3aad-4b87-a4cf-406b8885aef6")
+	)
+	(junction
+		(at 207.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7aa589-59fb-4c1a-9764-ca9405154e13")
 	)
 	(junction
 		(at 170.18 36.83)
@@ -4827,15 +4827,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9054xD")
 		(at 199.39 111.76 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1471343c-85f2-4174-aa13-3e30df48b4af")
 		(property "Reference" "U2"
-			(at 199.39 101.6 0)
+			(at 199.136 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4843,7 @@
 			)
 		)
 		(property "Value" "TLV9054xD"
-			(at 199.39 104.14 0)
+			(at 199.136 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4851,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 198.12 109.22 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4860,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9054.pdf"
-			(at 201.93 124.46 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +4870,7 @@
 			)
 		)
 		(property "Description" "Quad RRIO Operational Amplifiers, 15V/us slew rate, 33uVos, 5MHz GBW, SOIC-14"
-			(at 201.93 121.92 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,15 +8760,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9054xD")
 		(at 242.57 114.3 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1a404cd-3a13-447a-9d86-7bcea3062f78")
 		(property "Reference" "U2"
-			(at 242.57 104.14 0)
+			(at 243.078 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +8776,7 @@
 			)
 		)
 		(property "Value" "TLV9054xD"
-			(at 242.57 106.68 0)
+			(at 243.078 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8784,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 241.3 111.76 0)
+			(at 241.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8793,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9054.pdf"
-			(at 245.11 127 0)
+			(at 245.11 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8803,7 @@
 			)
 		)
 		(property "Description" "Quad RRIO Operational Amplifiers, 15V/us slew rate, 33uVos, 5MHz GBW, SOIC-14"
-			(at 245.11 124.46 0)
+			(at 245.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
