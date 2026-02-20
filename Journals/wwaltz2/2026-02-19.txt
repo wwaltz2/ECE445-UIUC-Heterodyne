@@ -1,0 +1,5 @@
+WITH LESS THAN 20 hours until our PCB review, we realized that the most crucial part of our board (our heterodyne/mixer circuit) was not passing simulation in LTSpice, so I helped out Evan with my 210 knowledge (which is 3 years old at this point) to help him design a mixer which will output the difference between two frequencies.
+
+I experimented with LTSpice, with no luck, for about 20 minutes. The closest we got to a heterodyned sine wave was when inputting a 20kHz and 21kHz sine wave to an opamp, and attaching a RC filter on the output, which gave us a 1kHz envelope with 41kHz carrier frequency. This may work in a pinch, I believe. The resistor value with the best graph, in simulation, was 1 Ohm, and the capacitor had a value of 1uF... :D
+
+Nevermind, Evan found a solution and I quickly implemented it in KiCad!
