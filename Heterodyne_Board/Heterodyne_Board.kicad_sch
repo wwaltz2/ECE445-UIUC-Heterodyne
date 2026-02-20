@@ -3533,6 +3533,12 @@
 		(uuid "8309a95e-b088-4c36-8d7f-1d9e54fb8ef7")
 	)
 	(junction
+		(at 57.15 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8950624d-0a75-4d97-812c-d5b04f5c7bfa")
+	)
+	(junction
 		(at 45.72 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3609,6 +3615,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f909a695-31a9-4de7-a3dc-212a118a20c9")
+	)
+	(junction
+		(at 27.94 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe9a29e1-6dc2-43a3-9835-47acaf62a47f")
 	)
 	(no_connect
 		(at 219.71 113.03)
@@ -4032,6 +4044,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 50.8) (xy 27.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c19718-6688-4a00-8619-be13dc8f8a10")
+	)
+	(wire
+		(pts
 			(xy 163.83 54.61) (xy 170.18 54.61)
 		)
 		(stroke
@@ -4312,7 +4334,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 48.26) (xy 57.15 52.07)
+			(xy 57.15 48.26) (xy 57.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4552,7 +4574,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 48.26) (xy 27.94 52.07)
+			(xy 27.94 48.26) (xy 27.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4659,6 +4681,16 @@
 			(type default)
 		)
 		(uuid "bfcf58f5-4836-4cc6-a24b-35f34dc6c4ad")
+	)
+	(wire
+		(pts
+			(xy 57.15 50.8) (xy 57.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cd1dc9-ac51-44ce-a4a2-3ac442bac7dc")
 	)
 	(wire
 		(pts
@@ -9906,6 +9938,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c96b85f8-7918-47fe-a75c-5ae4d915ed9e")
+		(property "Reference" "TP5"
+			(at 59.182 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 59.182 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4932f0a4-6ab3-4fdc-bdf1-e3940b855000")
+		)
+		(instances
+			(project "Heterodyne_Board"
+				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 115.57 90)
 		(unit 1)
@@ -10377,6 +10475,70 @@
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 27.94 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dabd40cd-c7fd-4c54-bb1c-80e74124d757")
+		(property "Reference" "TP4"
+			(at 19.05 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 19.05 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad910b1d-f73c-494d-b45e-02b4bd5cf1a3")
+		)
+		(instances
+			(project "Heterodyne_Board"
+				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
