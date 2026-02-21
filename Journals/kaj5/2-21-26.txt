@@ -1,0 +1,6 @@
+Good progress has been made over this week. We met with our TA for a second time and went over the feedback to our proposal. She seemed a bit confused at first to what the project was exactly trying to do,
+she seemed to think we were trying to make a device to find the location of bats rather than just hear them. We also further discussed ethical concerns and safety. While there may not be security concerns
+with the device we should keep in mind that with all electrical devices comes some risk of shock we should try to mitigate. The shell we create should be enough. We should also keep in mind other animals
+that may make ultrasonic sounds that can interfere with our device's function like some species of squirrels and mice. We have also gotten our schematic and PCB just about finished for construction later.
+We had our PCB reviewed yesterday and we seem good to go, but we were told just to add additional test points as well as keep our current limit in mind. Finally we completed our team contract which defined
+our roles. I will be working on the microcontroller software to interact with the flash, as well as working on mechanical portions of the project like designing the shell, dial, and switches.
