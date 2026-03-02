@@ -5899,7 +5899,7 @@
 		)
 		(uuid "92be20e2-a9b6-4ce1-90b4-b27659dd1d77")
 	)
-	(label "MISO"
+	(label "MOSI"
 		(at 129.54 43.18 0)
 		(effects
 			(font
@@ -5999,7 +5999,7 @@
 		)
 		(uuid "ff661021-8311-452b-9a60-b08ea17c7e49")
 	)
-	(label "MOSI"
+	(label "MISO"
 		(at 129.54 45.72 0)
 		(effects
 			(font
