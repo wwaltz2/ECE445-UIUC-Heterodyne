@@ -1,0 +1,1 @@
+Fixed and rerouted PCB, troubleshooted the Oscilloscope with Mr. McG.
