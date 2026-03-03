@@ -1,0 +1,9 @@
+The next, and hopefully final, problem with our initial PCB design was that there was no switch to choose between MCU audio output and heterodyne audio output. I had initially convinced my teammates that we did not need such a gate on our PCB, since the MCU output would rarely be used while a user was listening to the heterodyne, but we might as well cover our bases and be thorough with our design.
+
+So, I had set out to use a BJT to make a functional switch for the heterodyne output and the MCU output. I initially believed that a PNP transistor would work, until testing in Falstad and realizing the current through the transistor would be far too low. 
+
+Then I remembered that Multiplexors/switches exist. So, I searched the self-service sheet to try to find one, and then settled on the SN74LVC1G3157DBVR.
+
+Updated the KiCad schematic with new switch.
+
+https://www.ti.com/lit/ds/symlink/sn74lvc1g3157.pdf
