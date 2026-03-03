@@ -1,1 +1,4 @@
 Fixed and rerouted PCB, troubleshooted the Oscilloscope with Mr. McG.
+
+Began work on firmware, refer to https://learn.adafruit.com/trinket-audio-player?view=all
+for info about loading the flash mem

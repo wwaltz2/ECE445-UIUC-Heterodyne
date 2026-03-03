@@ -1,0 +1,36 @@
+// Test sketch
+
+// #define MOSI PIN_PB0
+// #define MISO PIN_PB1
+// #define SCK PIN_PB2
+// #define RST PIN_PB5
+
+// might be unneccessary ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#define AUDIO_EN PIN_PB3
+#define MCU_OUT PIN_PB4
+
+void setup() {
+  pinMode(AUDIO_EN, INPUT);
+  // enable internal pullup
+  digitalWrite(AUDIO_EN, HIGH);
+  int audio_index = 0;
+}
+
+void loop() {
+
+
+    int delay_time = 1000; //this should be the number of seconds we want to wait while the audio is playing, maybe
+
+    if (digitalRead(AUDIO_EN)==LOW){
+        digitalWrite(AUDIO_EN, LOW); // is this terrible form
+        delay(delay_time);
+        //do sound play
+        digitalWrite(AUDIO_EN, HIGH);
+        audio_index++;
+        audio_index = audio_index % 3; // or however many files we got
+    } else {
+        digitalWrite(AUDIO_EN, HIGH);
+    }
+
+}

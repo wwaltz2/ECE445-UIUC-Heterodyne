@@ -6334,6 +6334,16 @@
 		)
 		(uuid "088733fa-dcf3-4fc5-9002-236a6e22cbfd")
 	)
+	(label "Mixer_Out"
+		(at 137.16 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "157a4dba-10fe-48e6-965b-dfecf00c696c")
+	)
 	(label "MOSI"
 		(at 218.44 45.72 0)
 		(effects
@@ -6454,16 +6464,6 @@
 		)
 		(uuid "b2061e1f-8479-4755-9b37-31928c592abb")
 	)
-	(label "Mixer_Out"
-		(at 137.16 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "baa58903-1bcb-4641-bea2-cf4fd5f5d172")
-	)
 	(label "MOSI"
 		(at 156.21 49.53 180)
 		(effects
@@ -6535,14 +6535,14 @@
 		(uuid "da83c3c6-8147-4fdf-9563-4d1df0b0676e")
 	)
 	(label "MCU_Out"
-		(at 137.16 165.1 0)
+		(at 137.16 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e337ec01-1c2d-4e7e-9733-47ed9c8f66bc")
+		(uuid "ea5cd9e3-bce8-43dc-ab29-017e331aa9cf")
 	)
 	(label "Osci_out"
 		(at 262.89 130.81 0)
@@ -13516,22 +13516,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "57fd1d77-687c-4046-8ef5-7ba49fc965b4")
+			(uuid "57fd1d77-687c-4046-8ef5-7ba49fc965b5")
 		)
 		(pin "3"
-			(uuid "b6e92d01-0f1b-4e58-99c2-620f8af4c204")
+			(uuid "b6e92d01-0f1b-4e58-99c2-620f8af4c205")
 		)
 		(pin "4"
-			(uuid "4960673a-6d5e-47e8-a446-72a26cefebda")
+			(uuid "4960673a-6d5e-47e8-a446-72a26cefebdb")
 		)
 		(pin "1"
-			(uuid "4d61f4d3-421f-4ca6-b852-544c69ceac59")
+			(uuid "4d61f4d3-421f-4ca6-b852-544c69ceac5a")
 		)
 		(pin "5"
-			(uuid "b432626e-76c1-4304-bc37-d78a5e9e08fe")
+			(uuid "b432626e-76c1-4304-bc37-d78a5e9e08ff")
 		)
 		(pin "2"
-			(uuid "b8e7734e-abff-4758-96fd-3ecfe38de5b7")
+			(uuid "b8e7734e-abff-4758-96fd-3ecfe38de5b8")
 		)
 		(instances
 			(project ""
