@@ -1,0 +1,186 @@
+(footprint "445_MEMS-5_3.5x2.65mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://www.knowles.com/docs/default-source/model-downloads/sph0641lu4h-1-revb.pdf")
+	(tags "MEMS Microphone LGA")
+	(property "Reference" "MK1"
+		(at 5.775 1.1805 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "832311b4-e0d3-4071-a7dc-ec3e6b997b17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Microphone"
+		(at 0.025 2.075 0)
+		(layer "F.Fab")
+		(uuid "f8df81eb-b184-447f-9345-3c7a710702b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4f1b489-7b81-45f9-b4de-70632e4677e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ultrasound receiver"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34b086b0-0525-4b1d-987d-364af8ca9aba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0.127)
+	(attr smd)
+	(fp_rect
+		(start -1.079968 -1.989988)
+		(end 1.05 1.029965)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c5334749-a210-4ecc-86d3-54ae0f9dcdee")
+	)
+	(fp_arc
+		(start -0.600003 -0.329996)
+		(mid -0.464772 -0.521578)
+		(end -0.271242 -0.654007)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "63d2771b-a966-444f-acdf-cf278dedb611")
+	)
+	(fp_arc
+		(start -0.280003 0.550004)
+		(mid -0.471585 0.414773)
+		(end -0.604014 0.221243)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "ff21e453-d959-4efa-b27f-9d764faf5a61")
+	)
+	(fp_arc
+		(start 0.279997 -0.649996)
+		(mid 0.471398 -0.514949)
+		(end 0.603796 -0.321706)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "5069f50e-caf1-40dd-9470-fa1a6b35f778")
+	)
+	(fp_arc
+		(start 0.599997 0.230004)
+		(mid 0.464766 0.421586)
+		(end 0.271236 0.554015)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "32d218c5-740b-477a-a78f-3b7c42bcdddc")
+	)
+	(fp_rect
+		(start -1.2 -2.125)
+		(end 1.15 1.175)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6de3cf0a-6be1-4a11-8a4a-7dcbc917bc13")
+	)
+	(fp_rect
+		(start -0.925 -1.85)
+		(end 0.925 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "68b18bc1-3a3e-4db0-80c4-93bc53402df5")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.000003 -0.049996)
+		(size 0.35 0.35)
+		(drill 0.35)
+		(layers "*.Cu" "*.Mask")
+		(uuid "19dca201-258f-4f38-9ce0-fb45e4cdd82e")
+	)
+	(pad "1" smd custom
+		(at -0.000003 0.612504)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 0 -0.6625)
+				(end 0.6625 -0.6625)
+				(width 0.3)
+				(fill no)
+			)
+		)
+		(uuid "f95e2300-9096-4187-9139-56065ff46011")
+	)
+	(pad "2" smd rect
+		(at 0.475 -1.55)
+		(size 0.65 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33cce63e-ef1c-4d05-95cb-845d2155c113")
+	)
+	(pad "3" smd rect
+		(at -0.475 -1.55)
+		(size 0.65 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "87ba5e8c-bb62-4a41-a719-da24691fa2ba")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Audio.3dshapes/Knowles_LGA-5_3.5x2.65mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
