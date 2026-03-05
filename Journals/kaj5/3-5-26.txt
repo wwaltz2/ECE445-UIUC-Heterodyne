@@ -1,0 +1,6 @@
+Some updates over the past two weeks. We got our first and second PCB designs in and are making good progress as we seem to be ahead of most groups for now.
+We also got our finished design document in. I worked on most of the requirements and verifications, mostly going off of the base of the proposal. Some
+requirements were consolodated into others. I also created a general outline and flowchart for the firmware our MCU will be running which will also be uploaded in
+my journal. There are plenty of resources for creating an audio output on the ATTiny85 which will be quite useful. I also began on the CAD designs for our
+chassis shell and dial. It will be a bit difficult for exact specifications without a finalized PCB with mounting holes, switches, and potentiometers.
+Though I can still start on a general outline of what it will looks like and modify accordingly as our design gets finalized.
