@@ -1,0 +1,4 @@
+I SUCCESSFULLY FLASHED THE MEMORY IC WITH THE .WAV FILE OF OSKEE FROM THE DROP BY THE MARCHING ILLILI!!! 
+Had run into problems last night with the Serial Monitor not displaying the mem size of the chip, and then realized that the chip's manufacturer and device ID had been hardcoded in one of my header files. Silly me. I have now mastered mem writing.
+
+Now, all that needs to be done for demo is the flashing of the MCU. I have somehow forgotten how to do such a thing since the soldering assignment, and ran into some sync errors on Arduino IDE. Will have to come back later today. 
