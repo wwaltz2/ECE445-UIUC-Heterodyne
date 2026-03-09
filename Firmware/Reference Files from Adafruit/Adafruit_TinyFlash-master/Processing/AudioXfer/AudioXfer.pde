@@ -2,6 +2,8 @@
 // 'AudioLoader' sketch on Arduino w/Winbond flash chip.
 // For Processing 2.0; will not work in 1.5!
 
+//THE ONE THAT WORKS
+
 import processing.serial.*;
 
 Serial  port = null;
@@ -57,9 +59,8 @@ void setup() {
   }
 
   if(port != null) { // Find one?
-    if(((s        = readLine())                != null)
-    && ((capacity = Integer.parseInt(s.trim())) > 0)) {
-      println("Found Arduino w/" + capacity + " byte flash chip.");
+    if(((s        = readLine())                != null)) {
+      println("Found Arduino ");
       selectInput("Select a file to process:", "fileSelected");
     } else {
       println("Arduino failed to initialize flash memory.");
@@ -68,6 +69,24 @@ void setup() {
   } else {
     println("Could not find connected Arduino running AudioLoader sketch.");
     done = true;
+  }
+}
+
+void readFirstPage() {
+  String line;
+  while(true){
+//    print("flag0");
+    line = port.readStringUntil('\n');
+//    print("flag1");
+    if(line != null){
+//      print("flag2");
+      print(line); // print each line from Arduino
+    }
+//    print("flag3");
+    if(line != null && line.contains("END_PAGE")){    
+//      print("flag4");
+      break; // done reading the page
+    }
   }
 }
 
@@ -89,6 +108,9 @@ void fileSelected(File f) {
           bytesPer   = uvalue(input, 32, 2),
           bytesTotal = uvalue(input, 24+chunksize, 4),
           samples    = bytesTotal / bytesPer;
+          
+      println(bytesTotal);
+      println(samples);
 
       port.write("ERASE"); // Issue erase command now, process audio while it works
 
@@ -97,14 +119,14 @@ void fileSelected(File f) {
       + "  " + rate     + " Hz\n" +
         "  " + bitsPer  + " bits");
 
-      if(samples > (capacity - 6)) samples = capacity - 6;
+//      if(samples > (capacity - 6)) samples = capacity - 6;
       byte[] output = new byte[samples + 6];
-      output[0] = (byte)(rate >> 8);     // Sampling rate (Hz)
-      output[1] = (byte)(rate);
-      output[2] = (byte)(samples >> 24); // Number of samples
-      output[3] = (byte)(samples >> 16);
-      output[4] = (byte)(samples >> 8);
-      output[5] = (byte)(samples);
+//      output[0] = (byte)(rate >> 8);     // Sampling rate (Hz)
+//      output[1] = (byte)(rate);
+//      output[2] = (byte)(samples >> 24); // Number of samples
+//      output[3] = (byte)(samples >> 16);
+//      output[4] = (byte)(samples >> 8);
+//      output[5] = (byte)(samples);
 
       int index_in = chunksize + 28, index_out = 6, end = samples + 6;
       int c, lo, hi, sum, div;
@@ -137,10 +159,13 @@ void fileSelected(File f) {
       // can echo progress dots from the Arduino to the console.
       // Eventually may want to make it re-write error sectors.
       for(int i=0; i<output.length; i++) {
+        if(i % 50 == 0) println(i);
         port.write(output[i]);
-        if((c = port.read()) >= 0) print((char)c);
-      }
-      println("done!");
+        readLine();      
+       }
+//      port.write("DONEWRITING");
+      readFirstPage();
+      println("done af!");
     } else {
       println("Invalid WAV file.");
     }
