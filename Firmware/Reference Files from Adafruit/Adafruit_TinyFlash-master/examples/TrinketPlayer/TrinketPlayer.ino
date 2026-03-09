@@ -18,10 +18,14 @@ volatile uint32_t  index = 0L;
 void setup() {
   uint8_t  data[6];
   uint32_t bytes;
+  pinMode(3, OUTPUT);
 
+  digitalWrite(3,HIGH);
   if(!(bytes = flash.begin())) {     // Flash init error?
-    for(;; PORTB ^= 2, delay(250));  // Blink 2x/sec
+    for(;; PORTB ^= 2, delay(250));  // Blink PB1 every halfsecond
   }
+  delay(2000);
+
 
   // First six bytes contain sample rate, number of samples
   flash.beginRead(0);
@@ -45,6 +49,8 @@ void setup() {
   GTCCR  = _BV(PWM1B) | _BV(COM1B1); // PWM B, clear on match
   OCR1C  = 255;                      // Full 8-bit PWM cycle
   OCR1B  = 127;                      // 50% duty at start
+  digitalWrite(3,LOW);
+
 
   pinMode(4, OUTPUT);                // Enable PWM output pin
 
@@ -66,6 +72,7 @@ void setup() {
     OCR0A  = (((F_CPU / 8L) + (sample_rate / 2)) / sample_rate) - 1;
   }
   TIMSK = _BV(OCIE0A); // Enable compare match, disable overflow
+
 }
 
 void loop() { }
@@ -75,6 +82,7 @@ ISR(TIMER0_COMPA_vect) {
   if(++index >= samples) {           // End of audio data?
     index = 0;                       // We must repeat!
     flash.endRead();
+    digitalWrite(3,HIGH);
     flash.beginRead(6);              // Skip 6 byte header
   }
 }
