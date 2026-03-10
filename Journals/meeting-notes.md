@@ -8,4 +8,6 @@
 - Define the input signal : Plot the frequency spectrum of a typical bat call and the typical decibels that reach a listener.
 
 ### Breadboard demo  
-- 
+- Displayed oscillator output - range is 14kHz to 110 kHz.  
+- Used bench top power supply with on board regulator.
+- Submitted one board in round 1 and two boards in round 2 (mic separate) + stencils  
