@@ -6843,7 +6843,7 @@
 		(descr "Through hole IDC box header, 2x03, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x03 2.54mm double row")
 		(property "Reference" "J8"
-			(at 1.27 -6.1 90)
+			(at -6.322658 -3.718 180)
 			(layer "F.SilkS")
 			(uuid "cdc7fe82-8bd6-45bb-a8f3-ba58a7263275")
 			(effects
@@ -9913,7 +9913,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm*")
-		(path "/ffcfc827-a5ab-4143-a598-16d08fe5e672")
+		(path "/f4452875-8abf-4a89-bb00-30bffd85cac2")
 		(sheetname "/")
 		(sheetfile "Heterodyne_Board.kicad_sch")
 		(attr smd)
@@ -13491,6 +13491,30 @@
 		(at 156.683 128.750658 0)
 		(layer "F.SilkS")
 		(uuid "0c1f5619-7e57-432e-8c31-b23ffc242adb")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "(FLASH)"
+		(at 202.565 85.852 0)
+		(layer "F.SilkS")
+		(uuid "5393722c-ddd7-4148-af5a-3a59e8752ecc")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "(MCU)"
+		(at 160.528 64.008 0)
+		(layer "F.SilkS")
+		(uuid "95251369-b119-4e98-b7ec-c76f1f253255")
 		(effects
 			(font
 				(size 1.016 1.016)
