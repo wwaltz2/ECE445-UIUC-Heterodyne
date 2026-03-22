@@ -1,0 +1,21 @@
+Good afternoon, ECE445!
+
+I spent a week away from the circuitry, and magically, the firmware solution came to me. I read through the documentation for the Adafruit Tinker audio player and realized that the MISO and MOSI lines simply had to be switched. Now, I can continue moving forward in the firmware development. 
+
+Firstly, however, I must revamp the circuitry. Currently, there is no connection between MCU and Flash mem IC. Big whoops.
+
+Here is what needs to happen: MCU and Flash must share MOSI, MISO, and CLK nodes. Should there be resistors between them? Isolation resistors? ask Evan.
+
+There are two switches needed. A switch to make the MCU's reset pin (physical pin 1) grounded such that the flash can be programmed without interference from MCU, and a switch to make the Flash mem's Chip Select at +3v3 such that we can program MCU without interference from the Flash mem.
+
+The MOSI and MISO lines should be flipped on the schematic: MCU PhP2 -> Flash PhP1 (and User input), MCU PhP5 -> Flash PhP2, MCU PhP6 -> Flash PhP5, MCU PhP7 -> Flash PhP6.
+
+MCU PhP3 -> output to analog audio playback system.
+
+Maybe add a small capacitor (double check the value) between Flash PhP5 and Flash PhP8? (GND and 3V3) ask Evan if this exists there already.
+
+Flash PhP3 and PhP7 always gotta stay high. All the Time. to keep you off my mind. OOOoooOOoooo
+
+Finally, we need to add a button to queue sound playback. This will be connected to the MCU's physical pin 2, which also controls the Flash's Chip Select. I will need to think through with Evan and Kyle whether the button should be active high or active low on the MCU. Whichever will cause fewer problems with the flash.
+
+Also, I suggest that all pots, buttons, microphone, and headphone jack should all be on separate breakout boards, or should have simple wired connections to the pcb, much like in the soldering assignment, for purpose of modularity with the chassis.
