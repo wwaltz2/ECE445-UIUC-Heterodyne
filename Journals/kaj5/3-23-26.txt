@@ -1,0 +1,10 @@
+Some updates over the past few weeks (I really need to get more consistent with these but the last weeks before spring break were a wee bit chaotic)
+After a pretty successful design review, we continued work on the breadboard. Evan got the oscillator working and Bill got started on the MCU firmware.
+We weren't able to finish the firmware or mixer for the demo but it seemed alright and like we were making good progress anyway. We also got in our third
+round PCB which I reminded finally add mounting holes since I kinda need those for the CAD design. I created a prototype for the chassis which I have
+also pushed an image of. It should work decently well and the board should fit in it. Some changes need to made as is natural with the continual design of
+the PCB. I'll need to move and modify the dials accordingly with the board as well as some extra holes for the power switch and microphone. Also need to
+add another hole for the volume dial as well as some other modifications for ease of construction. Many of these things still are a bit up in the air
+until I can actually get my hands on the PCB as well as switches, potentiometers, etc so that I can modify the chassis design accordingly. Finally, I
+got my hands on the broken Magenta detector. It will serve as good reference for a chassis design and what works in terms of ergonomics and logical
+design.
