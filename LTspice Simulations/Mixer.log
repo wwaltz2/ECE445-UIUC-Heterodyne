@@ -1,0 +1,79 @@
+LTspice 24.1.0 for Windows
+Circuit: C:\Users\sapph\OneDrive\Desktop\ECE445-UIUC-Heterodyne\LTspice Simulations\Mixer.net
+Start Time: Mon Mar 23 16:48:08 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.666667
+Gmin = 3.26162
+vernier = 0.888888
+Gmin = 0.528136
+vernier = 1
+Gmin = 0.0567082
+Gmin = 0.006089
+Gmin = 0.000653801
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 0.000350061
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 0.000336822
+vernier = 0.00390625
+vernier = 0.00520833
+Gmin = 0.000333659
+vernier = 0.00694444
+Gmin = 0.00032849
+vernier = 0.00925925
+vernier = 0.0123457
+Gmin = 0.000319996
+vernier = 0.0164609
+vernier = 0.0219478
+Gmin = 0.000306912
+vernier = 0.0292638
+Gmin = 0.000287418
+vernier = 0.0390184
+vernier = 0.0520245
+Gmin = 0.000257496
+vernier = 0.0693659
+vernier = 0.0924879
+Gmin = 0.000216217
+vernier = 0.123317
+Gmin = 0.00016446
+vernier = 0.164423
+vernier = 0.21923
+Gmin = 0.000104327
+vernier = 0.292307
+vernier = 0.389743
+Gmin = 5.09928e-05
+vernier = 0.519657
+Gmin = 1.68935e-05
+vernier = 0.692876
+vernier = 0.923834
+Gmin = 2.82145e-06
+vernier = 1
+Gmin = 3.12396e-07
+Gmin = 3.35432e-08
+Gmin = 3.60168e-09
+Gmin = 3.86727e-10
+Gmin = 4.15245e-11
+Gmin = 4.45866e-12
+Gmin = 4.78745e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.497 seconds.
+
+Files loaded:
+C:\Users\sapph\OneDrive\Desktop\ECE445-UIUC-Heterodyne\LTspice Simulations\Mixer.net
+C:\Users\sapph\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\sapph\OneDrive\Desktop\ECE445-UIUC-Heterodyne\LTspice Simulations\tlv9052.lib
+
