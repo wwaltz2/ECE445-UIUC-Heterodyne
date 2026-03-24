@@ -3690,142 +3690,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -4654,6 +4518,14 @@
 		(uuid "13955d62-2ddb-4fb1-bc9e-cce79a6fb7b7")
 	)
 	(no_connect
+		(at 358.14 45.72)
+		(uuid "9da540bc-4430-45da-b15d-44a0a025b71c")
+	)
+	(no_connect
+		(at 355.6 134.62)
+		(uuid "c5e54dfb-044c-4d57-a62c-02e89fce55be")
+	)
+	(no_connect
 		(at 53.34 90.17)
 		(uuid "d0e8593a-3d41-420d-8c2c-370a174c9d84")
 	)
@@ -4873,6 +4745,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 48.26) (xy 347.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198673dc-9fa1-4010-942f-07c31de6e419")
+	)
+	(wire
+		(pts
 			(xy 269.24 111.76) (xy 269.24 105.41)
 		)
 		(stroke
@@ -5063,7 +4945,17 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 36.83) (xy 364.49 38.1)
+			(xy 361.95 129.54) (xy 355.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297511bd-082d-42c3-bb61-3597cfa84c65")
+	)
+	(wire
+		(pts
+			(xy 364.49 36.83) (xy 364.49 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5663,6 +5555,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 48.26) (xy 347.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff138cb-8560-4fb7-b226-821c76e0ddbe")
+	)
+	(wire
+		(pts
 			(xy 57.15 53.34) (xy 57.15 54.61)
 		)
 		(stroke
@@ -5733,7 +5635,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 125.73) (xy 361.95 127)
+			(xy 361.95 125.73) (xy 361.95 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5880,6 +5782,16 @@
 			(type default)
 		)
 		(uuid "890909a9-0402-4a98-b7a1-870384d75c25")
+	)
+	(wire
+		(pts
+			(xy 361.95 137.16) (xy 345.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adba141-9b57-4297-9242-c9f2eef7dc0a")
 	)
 	(wire
 		(pts
@@ -6543,6 +6455,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 137.16) (xy 345.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f058b026-a2cd-4cc0-8dde-3871e2cde142")
+	)
+	(wire
+		(pts
 			(xy 198.12 113.03) (xy 198.12 125.73)
 		)
 		(stroke
@@ -6610,6 +6532,16 @@
 			(type default)
 		)
 		(uuid "f56afd3b-448b-4f57-b4ad-df25d6cca2f9")
+	)
+	(wire
+		(pts
+			(xy 358.14 40.64) (xy 364.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65fd37d-96a8-4123-865c-56671fba1086")
 	)
 	(wire
 		(pts
@@ -8670,7 +8602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 294.64 55.118 90)
 			(effects
 				(font
@@ -9769,76 +9701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 364.49 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e37e60a-95c5-4981-b603-4147243cfa97")
-		(property "Reference" "SW2"
-			(at 365.76 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 365.76 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
-			(at 364.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 364.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 364.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24184d65-6054-4fd8-834d-cc5db6367950")
-		)
-		(pin "1"
-			(uuid "d74a54d7-22ba-4f27-8e1d-cd29b7a60334")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 45.72 59.69 0)
 		(unit 1)
@@ -10749,7 +10611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 301.498 59.69 90)
 			(effects
 				(font
@@ -11905,7 +11767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 350.52 132.08 0)
 			(effects
 				(font
@@ -12805,7 +12667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 353.06 43.18 0)
 			(effects
 				(font
@@ -12944,7 +12806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 269.748 63.5 90)
 			(effects
 				(font
@@ -15346,76 +15208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 361.95 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee14b35c-bf6b-4f02-80d0-8aeeaf0c41df")
-		(property "Reference" "SW3"
-			(at 363.22 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 363.22 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
-			(at 361.95 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 361.95 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 361.95 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b088a1f6-3b0a-4ddc-9c68-f0d622ba5959")
-		)
-		(pin "1"
-			(uuid "3af14e3f-8db6-43fd-b5c9-a6235b9c8db4")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 261.62 55.88 90)
 		(unit 1)
@@ -15440,7 +15232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 261.62 57.658 90)
 			(effects
 				(font
@@ -15574,7 +15366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 316.23 50.038 90)
 			(effects
 				(font
@@ -16226,7 +16018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 328.168 54.61 90)
 			(effects
 				(font
