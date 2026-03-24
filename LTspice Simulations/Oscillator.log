@@ -1,6 +1,6 @@
 LTspice 24.1.0 for Windows
 Circuit: C:\Users\sapph\OneDrive\Desktop\ECE445-UIUC-Heterodyne\LTspice Simulations\Oscillator.net
-Start Time: Mon Mar 23 16:40:03 2026
+Start Time: Tue Mar 24 15:38:57 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
@@ -10,7 +10,7 @@ Direct Newton iteration for .op point succeeded.
 .step r1=10
 .step r1=100
 .step r1=1000
-Total elapsed time: 1.431 seconds.
+Total elapsed time: 3.535 seconds.
 
 Files loaded:
 C:\Users\sapph\OneDrive\Desktop\ECE445-UIUC-Heterodyne\LTspice Simulations\Oscillator.net
