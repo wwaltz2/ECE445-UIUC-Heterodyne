@@ -4322,6 +4322,12 @@
 		(uuid "0b4eb562-435e-4979-b58c-8ca6bcba1c5e")
 	)
 	(junction
+		(at 364.49 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f6ca7f-1155-497d-afd4-df1835f47983")
+	)
+	(junction
 		(at 110.49 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4380,6 +4386,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5160ef3f-b285-49db-9594-c2d462fb0476")
+	)
+	(junction
+		(at 354.33 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55122fdf-3a7b-4783-a004-e70f877e0777")
 	)
 	(junction
 		(at 46.99 171.45)
@@ -4454,12 +4466,6 @@
 		(uuid "bf9d66f0-e4fd-4585-9176-6dab70155100")
 	)
 	(junction
-		(at 374.65 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c15cec39-7291-4582-926a-d742229d5644")
-	)
-	(junction
 		(at 283.21 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4478,10 +4484,16 @@
 		(uuid "d17ecb9d-6eee-4a39-bb57-a740a4b4a327")
 	)
 	(junction
-		(at 373.38 80.01)
+		(at 375.92 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1b7d3ed-21e5-4a1a-9d30-abcca5b727b2")
+	)
+	(junction
+		(at 152.4 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e2200e-0e53-4cc0-a7f4-f66054c3b232")
 	)
 	(junction
 		(at 99.06 105.41)
@@ -4514,16 +4526,16 @@
 		(uuid "fd75c9df-83c5-4888-b3e2-024b63c5b8cb")
 	)
 	(no_connect
+		(at 364.49 110.49)
+		(uuid "11fc9036-e572-4e79-bdcf-0551f2ca70af")
+	)
+	(no_connect
 		(at 271.78 107.95)
 		(uuid "13955d62-2ddb-4fb1-bc9e-cce79a6fb7b7")
 	)
 	(no_connect
 		(at 358.14 45.72)
 		(uuid "9da540bc-4430-45da-b15d-44a0a025b71c")
-	)
-	(no_connect
-		(at 355.6 134.62)
-		(uuid "c5e54dfb-044c-4d57-a62c-02e89fce55be")
 	)
 	(no_connect
 		(at 53.34 90.17)
@@ -4605,17 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 125.73) (xy 374.65 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab29683-32be-4f96-b1f4-9aab75ccf470")
-	)
-	(wire
-		(pts
-			(xy 151.13 166.37) (xy 161.29 166.37)
+			(xy 158.75 166.37) (xy 168.91 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4632,16 +4634,6 @@
 			(type default)
 		)
 		(uuid "0c954a72-faaa-41c9-b3a3-7757bab8578d")
-	)
-	(wire
-		(pts
-			(xy 46.99 182.88) (xy 46.99 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ceaac49-7bd3-40e7-8990-41df639eb601")
 	)
 	(wire
 		(pts
@@ -4665,13 +4657,13 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 91.44) (xy 363.22 92.71)
+			(xy 354.33 120.65) (xy 346.71 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1094898b-8a25-4e2d-a871-08c54ec3686b")
+		(uuid "111aed2c-53df-4d0d-8830-5f7c32e5fb2b")
 	)
 	(wire
 		(pts
@@ -4695,23 +4687,23 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 137.16) (xy 374.65 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14db23af-840a-4ae7-8aac-203b07f3c6f4")
-	)
-	(wire
-		(pts
-			(xy 64.77 184.15) (xy 64.77 189.23)
+			(xy 64.77 184.15) (xy 64.77 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "15187f8b-ee99-45c8-91a3-509eb753e966")
+	)
+	(wire
+		(pts
+			(xy 351.79 100.33) (xy 364.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e50c56-fb87-4306-a08a-2ac83630560a")
 	)
 	(wire
 		(pts
@@ -4725,7 +4717,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 181.61) (xy 217.17 184.15)
+			(xy 224.79 181.61) (xy 224.79 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4762,6 +4754,16 @@
 			(type default)
 		)
 		(uuid "1a69860e-4057-4ef8-8043-6fdf344e9593")
+	)
+	(wire
+		(pts
+			(xy 354.33 107.95) (xy 354.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc2bb20-7a85-4d48-84d1-991299f778c5")
 	)
 	(wire
 		(pts
@@ -4815,6 +4817,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 193.04) (xy 41.91 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209204ba-27c7-4b7e-b7b2-0e912e6ee728")
+	)
+	(wire
+		(pts
 			(xy 60.96 110.49) (xy 69.85 110.49)
 		)
 		(stroke
@@ -4855,7 +4867,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 66.04) (xy 373.38 68.58)
+			(xy 375.92 86.36) (xy 375.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4865,17 +4877,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 111.76) (xy 374.65 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2492e8bf-39bb-4094-9040-fa6147380510")
-	)
-	(wire
-		(pts
-			(xy 168.91 171.45) (xy 168.91 175.26)
+			(xy 176.53 171.45) (xy 176.53 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4945,13 +4947,23 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 129.54) (xy 355.6 129.54)
+			(xy 86.36 193.04) (xy 86.36 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "297511bd-082d-42c3-bb61-3597cfa84c65")
+		(uuid "2a40e06c-5d15-4def-98d1-ab5e562ec1a3")
+	)
+	(wire
+		(pts
+			(xy 351.79 107.95) (xy 354.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7daa7a-2055-4514-beb1-7c22ce8fc7d4")
 	)
 	(wire
 		(pts
@@ -4985,7 +4997,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 76.2) (xy 373.38 80.01)
+			(xy 375.92 96.52) (xy 375.92 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5095,7 +5107,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 181.61) (xy 189.23 181.61)
+			(xy 193.04 181.61) (xy 196.85 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5155,7 +5167,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 163.83) (xy 187.96 163.83)
+			(xy 184.15 163.83) (xy 195.58 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5175,7 +5187,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 181.61) (xy 217.17 181.61)
+			(xy 222.25 181.61) (xy 224.79 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5285,16 +5297,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 91.44) (xy 360.68 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d2e3f8a-f7df-46c1-a5c3-0a1e07c2d0c3")
-	)
-	(wire
-		(pts
 			(xy 283.21 139.7) (xy 283.21 128.27)
 		)
 		(stroke
@@ -5345,6 +5347,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 193.04) (xy 59.69 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f2478e-462d-4006-bfc5-e976ce52502f")
+	)
+	(wire
+		(pts
 			(xy 256.54 100.33) (xy 256.54 105.41)
 		)
 		(stroke
@@ -5385,13 +5397,13 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 85.09) (xy 364.49 85.09)
+			(xy 152.4 161.29) (xy 168.91 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "599f6cd7-4c0c-4ec4-b0e8-b5c6099fd2ae")
+		(uuid "59cc5352-3a3a-4081-bc3b-6c6a776c396e")
 	)
 	(wire
 		(pts
@@ -5402,6 +5414,26 @@
 			(type default)
 		)
 		(uuid "5bced655-fb30-4fa2-829e-5e15332a32b5")
+	)
+	(wire
+		(pts
+			(xy 351.79 105.41) (xy 351.79 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8283b8-6afd-4827-9ed2-3983f22e8d33")
+	)
+	(wire
+		(pts
+			(xy 364.49 100.33) (xy 365.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d86b547-e556-48ad-9746-623fca4fde39")
 	)
 	(wire
 		(pts
@@ -5485,16 +5517,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 88.9) (xy 363.22 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69d8950e-b07a-4224-9373-96c7043b9c9c")
-	)
-	(wire
-		(pts
 			(xy 198.12 125.73) (xy 201.93 125.73)
 		)
 		(stroke
@@ -5575,7 +5597,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 91.44) (xy 373.38 92.71)
+			(xy 375.92 111.76) (xy 375.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5592,6 +5614,16 @@
 			(type default)
 		)
 		(uuid "75c4ab5e-4a15-4875-b03d-a93ff5af2933")
+	)
+	(wire
+		(pts
+			(xy 46.99 182.88) (xy 46.99 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f3c887-e2bc-4ab6-9bf4-193a0fca40c6")
 	)
 	(wire
 		(pts
@@ -5635,16 +5667,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 125.73) (xy 361.95 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5821c5-e90d-41c9-9236-5f7f5b229035")
-	)
-	(wire
-		(pts
 			(xy 40.64 167.64) (xy 39.37 167.64)
 		)
 		(stroke
@@ -5652,16 +5674,6 @@
 			(type default)
 		)
 		(uuid "7c8753fa-9123-454c-b026-a5350a73728a")
-	)
-	(wire
-		(pts
-			(xy 361.95 137.16) (xy 361.95 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cdd6586-3e41-4139-9986-12df1d38fa37")
 	)
 	(wire
 		(pts
@@ -5705,16 +5717,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 85.09) (xy 364.49 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81e45060-5f34-4eda-baf2-df98d4bc5644")
-	)
-	(wire
-		(pts
 			(xy 68.58 57.15) (xy 68.58 59.69)
 		)
 		(stroke
@@ -5722,26 +5724,6 @@
 			(type default)
 		)
 		(uuid "82e5c55c-3ec2-40ba-8ec0-62111d31feb0")
-	)
-	(wire
-		(pts
-			(xy 151.13 161.29) (xy 161.29 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84525b7d-69ab-4be4-a77b-f81ae8bb1da7")
-	)
-	(wire
-		(pts
-			(xy 372.11 125.73) (xy 374.65 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86c8b97a-3c9e-4a68-90e8-0d4a9528b447")
 	)
 	(wire
 		(pts
@@ -5755,13 +5737,13 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 91.44) (xy 360.68 91.44)
+			(xy 90.17 193.04) (xy 86.36 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88094743-efe6-4885-8645-d5c1f239fd7d")
+		(uuid "8841e99f-698b-4a54-ba5d-c17169ea2c48")
 	)
 	(wire
 		(pts
@@ -5785,16 +5767,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 137.16) (xy 345.44 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8adba141-9b57-4297-9242-c9f2eef7dc0a")
-	)
-	(wire
-		(pts
 			(xy 222.25 53.34) (xy 219.71 53.34)
 		)
 		(stroke
@@ -5815,7 +5787,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 80.01) (xy 373.38 83.82)
+			(xy 375.92 100.33) (xy 375.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5835,33 +5807,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 176.53) (xy 185.42 181.61)
+			(xy 193.04 176.53) (xy 193.04 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "967bac81-df24-435b-b9aa-ed66c56bf7e9")
-	)
-	(wire
-		(pts
-			(xy 364.49 81.28) (xy 363.22 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a6bdab-117d-4e9a-9568-9aedbe059cea")
-	)
-	(wire
-		(pts
-			(xy 374.65 121.92) (xy 374.65 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96d5ba8e-bbb6-4e54-ae6c-6afd67f23bb6")
 	)
 	(wire
 		(pts
@@ -5965,6 +5917,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 161.29) (xy 152.4 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c28d49-f2ce-436e-b607-c111120746d5")
+	)
+	(wire
+		(pts
 			(xy 161.29 102.87) (xy 157.48 102.87)
 		)
 		(stroke
@@ -5992,6 +5954,16 @@
 			(type default)
 		)
 		(uuid "aae05257-a9e5-4709-8a85-8650275ce86f")
+	)
+	(wire
+		(pts
+			(xy 41.91 193.04) (xy 41.91 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca25a03-0aba-4118-9fdb-ba6d86b9459a")
 	)
 	(wire
 		(pts
@@ -6092,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "b8f08734-976d-42bf-b4a4-bc2555b403e6")
+	)
+	(wire
+		(pts
+			(xy 364.49 100.33) (xy 364.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0c8040-513e-4aa6-8180-d91d3db23ea1")
 	)
 	(wire
 		(pts
@@ -6275,7 +6257,17 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 80.01) (xy 373.38 80.01)
+			(xy 90.17 176.53) (xy 90.17 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3592818-9ff1-4979-851e-12d55a65b207")
+	)
+	(wire
+		(pts
+			(xy 373.38 100.33) (xy 375.92 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6322,16 +6314,6 @@
 			(type default)
 		)
 		(uuid "dd2d223a-5d17-4502-9208-a57f1b0895d4")
-	)
-	(wire
-		(pts
-			(xy 90.17 187.96) (xy 90.17 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dee68575-0be6-4ed5-8f8d-a1ef8be7b808")
 	)
 	(wire
 		(pts
@@ -6385,6 +6367,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 193.04) (xy 59.69 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b15f9b-600e-41c4-99fa-5d9b8751c4b5")
+	)
+	(wire
+		(pts
 			(xy 50.8 121.92) (xy 44.45 121.92)
 		)
 		(stroke
@@ -6425,7 +6417,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 80.01) (xy 377.19 80.01)
+			(xy 375.92 100.33) (xy 379.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6445,23 +6437,13 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 88.9) (xy 363.22 87.63)
+			(xy 346.71 120.65) (xy 346.71 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edb1e9ce-9bbe-4920-9328-cd8c25250dd2")
-	)
-	(wire
-		(pts
-			(xy 345.44 137.16) (xy 345.44 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f058b026-a2cd-4cc0-8dde-3871e2cde142")
+		(uuid "ef003b28-06b2-4c19-a8c4-68e7a545e34e")
 	)
 	(wire
 		(pts
@@ -6502,16 +6484,6 @@
 			(type default)
 		)
 		(uuid "f261a101-b438-4303-9de5-ab2ad8210e1b")
-	)
-	(wire
-		(pts
-			(xy 374.65 125.73) (xy 378.46 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a77a4d-9d49-4014-b48f-728aa00c8c8d")
 	)
 	(wire
 		(pts
@@ -6562,16 +6534,6 @@
 			(type default)
 		)
 		(uuid "f6f1ed91-e1dd-4c8d-ba58-59ab9727e284")
-	)
-	(wire
-		(pts
-			(xy 364.49 125.73) (xy 361.95 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f765fe72-a7a4-43b6-8772-edae97651f92")
 	)
 	(wire
 		(pts
@@ -6633,16 +6595,6 @@
 		)
 		(uuid "ff0ef1cf-60fd-4ebb-ac17-7affc1fce11f")
 	)
-	(wire
-		(pts
-			(xy 363.22 81.28) (xy 363.22 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffcf6b9d-fcc9-4568-8f53-5c8363193b4c")
-	)
 	(label "Osci_out"
 		(at 20.32 175.26 0)
 		(effects
@@ -6664,12 +6616,12 @@
 		(uuid "088733fa-dcf3-4fc5-9002-236a6e22cbfd")
 	)
 	(label "MCU_out"
-		(at 151.13 161.29 0)
+		(at 144.78 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3d8470ca-998a-424b-9cbf-eff15221e862")
 	)
@@ -6714,7 +6666,7 @@
 		(uuid "620e5720-5fcd-4132-9ea5-22117557f279")
 	)
 	(label "CANS"
-		(at 377.19 80.01 0)
+		(at 379.73 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6724,7 +6676,7 @@
 		(uuid "6945d6e1-cc57-4460-a892-54f937672bb5")
 	)
 	(label "Speaker_in"
-		(at 187.96 163.83 180)
+		(at 195.58 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6732,16 +6684,6 @@
 			(justify right bottom)
 		)
 		(uuid "6fb530ce-609b-49eb-9d1a-f7c5812fd77e")
-	)
-	(label "CANS"
-		(at 378.46 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "777b4fac-c122-4685-80dd-9ac19f747b9f")
 	)
 	(label "Mixer_out"
 		(at 116.84 173.99 0)
@@ -6774,7 +6716,7 @@
 		(uuid "92be20e2-a9b6-4ce1-90b4-b27659dd1d77")
 	)
 	(label "Mixer_out"
-		(at 151.13 166.37 0)
+		(at 158.75 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6784,7 +6726,7 @@
 		(uuid "9328c75e-b346-4e21-9374-b2ff52bdac73")
 	)
 	(label "CANS"
-		(at 168.91 175.26 0)
+		(at 176.53 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6963,7 +6905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "023aac4c-af75-4768-bf2c-28fc161c83a4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 44.45 125.73 0)
 			(effects
 				(font
@@ -7013,7 +6955,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7159,7 +7101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089fc83b-88ae-4b34-9828-478198c3f561")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 45.72 73.66 0)
 			(effects
 				(font
@@ -7209,7 +7151,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7294,7 +7236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b81510c-008b-4ce2-8af5-35010d5a49a0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR036"
 			(at 240.03 36.83 0)
 			(effects
 				(font
@@ -7344,7 +7286,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR014")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7690,7 +7632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c388e7a-581d-45b0-a7a0-cf224537e98b")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 114.3 89.408 90)
 			(effects
 				(font
@@ -7753,7 +7695,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7901,7 +7843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d88e61-8913-46a7-8826-77f60da3db1b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 181.61 72.39 0)
 			(effects
 				(font
@@ -7951,7 +7893,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7959,7 +7901,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A3159DCK")
-		(at 201.93 181.61 90)
+		(at 209.55 181.61 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7968,7 +7910,7 @@
 		(fields_autoplaced yes)
 		(uuid "24362536-0ed1-4c62-9097-4701f4bdb8dc")
 		(property "Reference" "U5"
-			(at 201.93 172.72 90)
+			(at 209.55 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +7918,7 @@
 			)
 		)
 		(property "Value" "TS5A3159DCK"
-			(at 201.93 175.26 90)
+			(at 209.55 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7984,7 +7926,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 215.265 180.975 0)
+			(at 222.885 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7936,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159.pdf"
-			(at 213.36 180.975 0)
+			(at 220.98 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +7946,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6"
-			(at 201.93 181.61 0)
+			(at 209.55 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +7991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24deb098-864b-46ac-b00b-155796cbe941")
-		(property "Reference" "R17"
+		(property "Reference" "R23"
 			(at 379.73 27.9399 0)
 			(effects
 				(font
@@ -8103,7 +8045,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R17")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8179,7 +8121,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 373.38 66.04 0)
+		(at 375.92 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8187,8 +8129,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "275fefc3-5caa-4bd1-acdd-2ebc7cfa9113")
-		(property "Reference" "#PWR041"
-			(at 373.38 69.85 0)
+		(property "Reference" "#PWR046"
+			(at 375.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8139,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 373.38 60.96 0)
+			(at 375.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 66.04 0)
+			(at 375.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 66.04 0)
+			(at 375.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 373.38 66.04 0)
+			(at 375.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +8179,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR041")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8586,7 +8528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "339f10e6-4359-4599-973c-23d25293817a")
-		(property "Reference" "R21"
+		(property "Reference" "R16"
 			(at 294.64 55.88 90)
 			(effects
 				(font
@@ -8638,139 +8580,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 374.65 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3454fc6a-06e6-44ca-9777-f563cc1f1703")
-		(property "Reference" "#PWR039"
-			(at 374.65 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 374.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 374.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 374.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf66b536-408a-4a50-8262-c61acfcb3069")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 361.95 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34d665d6-7696-494d-8623-a3c01c60a245")
-		(property "Reference" "#PWR038"
-			(at 361.95 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 361.95 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.95 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 361.95 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4e7f6c1-3018-4baa-9d14-0c57b7e55678")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR038")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8785,7 +8595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "363a1c18-b8ad-4ce3-81f8-85b0332846cd")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 254.254 60.706 0)
 			(effects
 				(font
@@ -8803,7 +8613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 236.22 52.07 90)
 			(effects
 				(font
@@ -8851,73 +8661,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 374.65 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "388035d7-7d80-4521-8b2e-bd9cdfafffe1")
-		(property "Reference" "#PWR048"
-			(at 374.65 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 374.65 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 374.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 374.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9cbce44-277a-471a-bdda-e6571a3f1772")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR048")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8998,7 +8742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a508b36-2c3d-4e22-8d36-5e3b61804cd4")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 76.2 41.9099 0)
 			(effects
 				(font
@@ -9052,7 +8796,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9123,6 +8867,76 @@
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb11776-4bfb-4866-ade2-8ecf6d172d47")
+		(property "Reference" "R25"
+			(at 154.94 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 154.94 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 154.178 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f1c4410-3089-4263-a75c-e68098f3c53b")
+		)
+		(pin "2"
+			(uuid "8148a321-1c99-41e0-8e5c-8277bf193f70")
+		)
+		(instances
+			(project ""
+				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9849,7 +9663,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 367.03 80.01 90)
+		(at 369.57 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9857,8 +9671,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51334fdb-5dd8-42f1-b4d9-b951e38c713c")
-		(property "Reference" "R14"
-			(at 367.03 73.66 90)
+		(property "Reference" "R20"
+			(at 369.57 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9866,7 +9680,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 367.03 76.2 90)
+			(at 369.57 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9874,7 +9688,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 367.03 81.788 90)
+			(at 369.57 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,7 +9697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 367.03 80.01 0)
+			(at 369.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +9706,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 367.03 80.01 0)
+			(at 369.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +9723,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R14")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9925,7 +9739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51cff4e5-0403-4102-bdd2-7809a0a2326d")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 114.3 110.4899 0)
 			(effects
 				(font
@@ -9979,7 +9793,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9995,7 +9809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57bf865d-7d38-4f8e-84ae-acc29676129d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 207.01 36.83 0)
 			(effects
 				(font
@@ -10045,7 +9859,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10393,7 +10207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "662aac7e-495d-4f7f-a26f-299b84c0a2fa")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR039"
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -10443,7 +10257,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR018")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10518,72 +10332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 64.77 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bbdcfcd-aeb7-4d4e-926f-f26bb142800a")
-		(property "Reference" "#PWR051"
-			(at 64.77 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b7279fc-1b12-4e2a-95cd-16e1988e7a3c")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 299.72 59.69 180)
 		(unit 1)
@@ -10593,7 +10341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6be36104-2b27-4377-98ba-07869eff31f3")
-		(property "Reference" "R24"
+		(property "Reference" "R17"
 			(at 302.26 58.4199 0)
 			(effects
 				(font
@@ -10647,7 +10395,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R24")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10716,74 +10464,6 @@
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 368.3 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dbfc038-fbd2-4026-9267-0f83dbf97726")
-		(property "Reference" "R18"
-			(at 368.3 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 368.3 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 368.3 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 368.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a1604b1-0406-48f4-96de-867032c37ac6")
-		)
-		(pin "2"
-			(uuid "a71dc8cb-96a5-40b2-9518-52db60f1976d")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10865,7 +10545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1582c4-71cc-428a-b394-6adb96008fe6")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 181.61 38.1 0)
 			(effects
 				(font
@@ -10915,7 +10595,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10923,73 +10603,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "706ee32c-a47b-4a88-b9fd-7566f100f3c8")
-		(property "Reference" "#PWR050"
-			(at 46.99 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8211fcc8-0ad9-4655-91c7-5ae34d3d2247")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 373.38 92.71 0)
+		(at 375.92 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10997,8 +10611,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7210abcc-80d9-4b12-866e-a8396af6fd33")
-		(property "Reference" "#PWR042"
-			(at 373.38 99.06 0)
+		(property "Reference" "#PWR047"
+			(at 375.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11007,7 +10621,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 373.38 97.79 0)
+			(at 375.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +10629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 92.71 0)
+			(at 375.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +10638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 92.71 0)
+			(at 375.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11033,7 +10647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 373.38 92.71 0)
+			(at 375.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,7 +10661,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11062,7 +10676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "773b7b7f-8b29-4d28-8123-7e64e260b943")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 243.84 114.3 0)
 			(effects
 				(font
@@ -11112,7 +10726,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11120,7 +10734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 363.22 92.71 0)
+		(at 346.71 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11128,8 +10742,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78ac6655-704a-4ef3-aada-6293a689ad20")
-		(property "Reference" "#PWR040"
-			(at 363.22 99.06 0)
+		(property "Reference" "#PWR044"
+			(at 346.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,7 +10752,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 363.22 97.79 0)
+			(at 346.71 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,7 +10760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 92.71 0)
+			(at 346.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11155,7 +10769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 92.71 0)
+			(at 346.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +10778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 92.71 0)
+			(at 346.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,7 +10792,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11186,7 +10800,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 184.15 0)
+		(at 224.79 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11194,8 +10808,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7971e2b1-0c2c-4211-990e-3dd13e307c8d")
-		(property "Reference" "#PWR036"
-			(at 217.17 190.5 0)
+		(property "Reference" "#PWR035"
+			(at 224.79 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +10818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 189.23 0)
+			(at 224.79 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +10826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 184.15 0)
+			(at 224.79 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +10835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 184.15 0)
+			(at 224.79 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +10844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 184.15 0)
+			(at 224.79 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,7 +10858,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11392,7 +11006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c77ce84-d26e-4693-a3a3-eb8401c487a5")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 207.01 69.85 0)
 			(effects
 				(font
@@ -11442,7 +11056,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11450,7 +11064,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 373.38 87.63 180)
+		(at 375.92 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11459,7 +11073,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f80b426-5d5f-4ff2-991a-9ac68aba2a01")
 		(property "Reference" "C13"
-			(at 377.19 86.3599 0)
+			(at 379.73 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +11082,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 377.19 88.8999 0)
+			(at 379.73 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11477,7 +11091,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 372.4148 83.82 0)
+			(at 374.9548 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,7 +11100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 373.38 87.63 0)
+			(at 375.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,7 +11109,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 373.38 87.63 0)
+			(at 375.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83db6617-450b-4297-b439-e143f5dee505")
-		(property "Reference" "J10"
+		(property "Reference" "J2"
 			(at 20.32 104.14 0)
 			(effects
 				(font
@@ -11583,7 +11197,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11669,7 +11283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8987f24f-4fca-41a7-8868-74b394617038")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 221.234 60.706 0)
 			(effects
 				(font
@@ -11735,7 +11349,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11743,16 +11357,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 350.52 132.08 0)
+		(at 359.41 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9043ab3b-f696-499c-99fa-b15b1d105fdd")
-		(property "Reference" "SW4"
-			(at 350.52 123.19 0)
+		(uuid "91101f8e-0ef1-47b2-9f52-10b067b573f8")
+		(property "Reference" "SW2"
+			(at 359.664 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11760,7 +11373,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 350.52 125.73 0)
+			(at 359.664 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11768,7 +11381,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
-			(at 350.52 132.08 0)
+			(at 359.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +11390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 350.52 139.7 0)
+			(at 359.41 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11786,7 +11399,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 350.52 132.08 0)
+			(at 359.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,18 +11408,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "01d56ee9-0b00-44c4-b26e-15d55ac3e5c1")
+			(uuid "695c103b-8b9a-437c-a6e6-647e7b8950f4")
 		)
 		(pin "3"
-			(uuid "a922d2b3-6f2c-42c1-9975-45c5470fec8b")
+			(uuid "f7d1db79-6720-4ce6-a6b8-ca847fcdfa4d")
 		)
 		(pin "2"
-			(uuid "cf0e9d6b-9ee7-4023-ac02-57e09c861297")
+			(uuid "0c705e18-d207-4767-889a-601fffc803d6")
 		)
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -11830,7 +11443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25X40CLSN"
+		(property "Value" "SST25VF080B"
 			(at 185.674 40.132 0)
 			(effects
 				(font
@@ -11839,7 +11452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 181.61 29.21 0)
 			(effects
 				(font
@@ -11900,78 +11513,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 374.65 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "938f716a-ade6-487a-86f7-049bfd36be2c")
-		(property "Reference" "R19"
-			(at 377.19 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 377.19 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 376.428 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 374.65 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 374.65 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f4495eb-d510-4046-8b58-781c10c91166")
-		)
-		(pin "2"
-			(uuid "4f7eca2c-b2af-4281-ad8e-2fdbbbbcfc2e")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 185.42 176.53 0)
+		(at 193.04 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11979,8 +11522,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9441afef-dc11-4792-bb4d-8527ccc7c909")
-		(property "Reference" "#PWR031"
-			(at 185.42 180.34 0)
+		(property "Reference" "#PWR032"
+			(at 193.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +11532,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 185.42 171.45 0)
+			(at 193.04 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11997,7 +11540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 176.53 0)
+			(at 193.04 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12006,7 +11549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 176.53 0)
+			(at 193.04 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12015,7 +11558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 185.42 176.53 0)
+			(at 193.04 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12029,7 +11572,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12044,7 +11587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94d98d74-ae83-424c-acd3-87f967266646")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 176.53 132.08 0)
 			(effects
 				(font
@@ -12094,7 +11637,75 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR030")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9566693d-0552-464b-9066-679260a11228")
+		(property "Reference" "R24"
+			(at 148.59 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 148.59 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 148.59 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f8310c6-c975-4583-b9f3-9fa96823d4fe")
+		)
+		(pin "1"
+			(uuid "bc07019d-fedf-48da-b7a6-848f3da82c57")
+		)
+		(instances
+			(project ""
+				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12235,7 +11846,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 358.14 87.63 180)
+		(at 346.71 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12243,8 +11854,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f1d839b-589c-4d4b-afd4-3ff1050ed998")
-		(property "Reference" "J9"
-			(at 358.14 78.74 0)
+		(property "Reference" "J11"
+			(at 346.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +11863,7 @@
 			)
 		)
 		(property "Value" "Audio_EN"
-			(at 358.14 81.28 0)
+			(at 346.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12260,7 +11871,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 358.14 87.63 0)
+			(at 346.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +11880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 87.63 0)
+			(at 346.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12278,7 +11889,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 358.14 87.63 0)
+			(at 346.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +11906,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -12583,7 +12194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a42502e0-d9ec-4033-8733-00a18f8ef873")
-		(property "Reference" "R16"
+		(property "Reference" "R21"
 			(at 370.84 30.48 90)
 			(effects
 				(font
@@ -12635,7 +12246,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R16")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12707,6 +12318,72 @@
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 41.91 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7d7a29c-e41d-4607-a580-93282d3c88fa")
+		(property "Reference" "#PWR010"
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ae623d0-19d8-4231-aa70-687b6d19c832")
+		)
+		(instances
+			(project "Heterodyne_Board"
+				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12788,7 +12465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab7dade1-26e3-4e78-8279-5006af809073")
-		(property "Reference" "R25"
+		(property "Reference" "R13"
 			(at 270.51 62.2299 0)
 			(effects
 				(font
@@ -12842,7 +12519,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R25")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13057,7 +12734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b548526d-e019-4fe6-828c-73f9fc356c32")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 377.19 55.88 0)
 			(effects
 				(font
@@ -13107,7 +12784,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -13123,7 +12800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ea606f-c2db-442d-9384-97a9a996817f")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR037"
 			(at 240.03 69.85 0)
 			(effects
 				(font
@@ -13173,7 +12850,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR049")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13189,7 +12866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc1175b-8fec-4452-806e-76305e334e2b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 377.19 26.67 0)
 			(effects
 				(font
@@ -13239,7 +12916,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -13310,76 +12987,6 @@
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 374.65 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bef3e9ca-f809-4333-8d9d-31aef8f5c8a2")
-		(property "Reference" "C15"
-			(at 378.46 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 378.46 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 373.6848 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 374.65 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 374.65 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1232d21f-2fa1-473d-ac48-3a137edca9f7")
-		)
-		(pin "2"
-			(uuid "df41c444-f4c3-4949-8656-22ca0723dfea")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13545,7 +13152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c71be2e1-948c-4481-94bd-592278d9e44e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 44.45 107.95 0)
 			(effects
 				(font
@@ -13595,7 +13202,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13918,7 +13525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb60cafa-8e13-4b0d-9fa5-3d6b633a5c9f")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 279.4 104.1399 0)
 			(effects
 				(font
@@ -13975,7 +13582,139 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J11")
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccf10ce2-c1a4-4905-a864-fd33f9a6c75f")
+		(property "Reference" "#PWR050"
+			(at 152.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "438461c1-aaaa-466a-b3db-7beb967bd034")
+		)
+		(instances
+			(project "Heterodyne_Board"
+				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 59.69 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cda1d6cb-c52f-4f72-8369-451fdc036fa4")
+		(property "Reference" "#PWR014"
+			(at 59.69 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 59.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4af9172c-9af0-40de-b7f0-4de5c6e2a97a")
+		)
+		(instances
+			(project "Heterodyne_Board"
+				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14048,6 +13787,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 86.36 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfcab49e-e577-4116-8044-c155f19d8679")
+		(property "Reference" "#PWR018"
+			(at 86.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a334e328-dc01-40d3-90be-b19ff4ac936a")
+		)
+		(instances
+			(project "Heterodyne_Board"
+				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 299.72 63.5 0)
 		(unit 1)
@@ -14057,7 +13862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d36264a3-2797-44e3-ab8c-7e13276d5980")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR040"
 			(at 299.72 69.85 0)
 			(effects
 				(font
@@ -14107,7 +13912,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR029")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -14189,7 +13994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4fbcbe3-4a1b-4502-b5c0-52a861c6c8e8")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR042"
 			(at 302.26 160.02 0)
 			(effects
 				(font
@@ -14239,7 +14044,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR044")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14255,7 +14060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8772f83-5090-41b2-ab7d-380e58ad91ca")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 50.8 93.9799 0)
 			(effects
 				(font
@@ -14312,7 +14117,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -14396,7 +14201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b810d0-17af-4366-a78a-5caab9ddcdfb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR043"
 			(at 326.39 64.77 0)
 			(effects
 				(font
@@ -14446,7 +14251,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR052")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14462,7 +14267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da1e0d6e-e7d9-4fdf-bf5a-99a515ebcd93")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 35.56 39.3699 0)
 			(effects
 				(font
@@ -14516,7 +14321,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14595,7 +14400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc43b2cc-1dc6-4be5-86e9-ae1a86a7831f")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 274.32 143.256 90)
 			(effects
 				(font
@@ -14647,7 +14452,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14799,7 +14604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e03b2661-a273-46b8-bd3a-c2c28d53660b")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 302.26 142.24 0)
 			(effects
 				(font
@@ -14849,7 +14654,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14990,74 +14795,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e39dd578-ecea-45f4-b84a-8f58cfaed157")
-		(property "Reference" "#PWR07"
-			(at 90.17 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d51191c-eafc-48ad-b1ae-d2f7774f6ece")
-		)
-		(instances
-			(project "Heterodyne_Board"
-				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 373.38 72.39 180)
+		(at 375.92 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15065,8 +14804,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e991ed0f-45c2-412a-a355-a7b6df594a11")
-		(property "Reference" "R15"
-			(at 375.92 71.1199 0)
+		(property "Reference" "R22"
+			(at 378.46 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15075,7 +14814,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 375.92 73.6599 0)
+			(at 378.46 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15084,7 +14823,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 375.158 72.39 90)
+			(at 377.698 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15093,7 +14832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 373.38 72.39 0)
+			(at 375.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +14841,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 373.38 72.39 0)
+			(at 375.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15119,7 +14858,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R15")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15127,7 +14866,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A3159DCK")
-		(at 168.91 163.83 0)
+		(at 176.53 163.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15136,7 +14875,7 @@
 		(dnp no)
 		(uuid "ed181b90-2b67-454f-aae4-78b68aae9960")
 		(property "Reference" "U5"
-			(at 168.91 154.94 0)
+			(at 176.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15144,7 +14883,7 @@
 			)
 		)
 		(property "Value" "TS5A3159DCK"
-			(at 168.91 157.48 0)
+			(at 176.53 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15152,7 +14891,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 168.275 177.165 0)
+			(at 175.895 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15162,7 +14901,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159.pdf"
-			(at 168.275 175.26 0)
+			(at 175.895 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15172,7 +14911,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6"
-			(at 168.91 163.83 0)
+			(at 176.53 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15216,7 +14955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eee9dc5a-df23-4fe8-98e6-6334768f35ce")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 261.62 58.42 90)
 			(effects
 				(font
@@ -15268,7 +15007,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -15350,7 +15089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2c54909-740c-4d96-9a08-afe0ff57b268")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 316.23 50.8 90)
 			(effects
 				(font
@@ -15402,7 +15141,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15725,7 +15464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f73e3954-5cb2-4362-bf67-389d35902d11")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 168.91 101.5999 0)
 			(effects
 				(font
@@ -15782,7 +15521,7 @@
 		(instances
 			(project ""
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -15797,7 +15536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f908efad-378a-4dab-83cc-fbb08fff9947")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 287.02 114.046 0)
 			(effects
 				(font
@@ -15849,7 +15588,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16000,7 +15739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fde2b3ac-5e7c-401f-b7f9-ba90da31529d")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 328.93 53.3399 0)
 			(effects
 				(font
@@ -16054,7 +15793,7 @@
 		(instances
 			(project "Heterodyne_Board"
 				(path "/bcb6d128-b2b2-45d9-80e5-2a1305aaf770"
-					(reference "R23")
+					(reference "R19")
 					(unit 1)
 				)
 			)
