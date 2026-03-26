@@ -502,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "./board_rev4",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
