@@ -1,0 +1,11 @@
+The final PCB has been submitted, since this will be our final board I can begin to finalize the chassis design. I had to widen the case due to
+the size of the PCB board, but I left the length the same. It is currently about 5 inches wide which isn't ideal as I would have preferred
+the final device to be roughly smartphone sized but fitting everything is most important. I could perhaps decrease overall size by modifying
+the standoffs for the screws to keep both halves of the chassis together. With the current dimensions and standoffs, there will be about 2x3 in of additional
+clearance inside the chassis which should be enough to fit the battery pack. I also modified the speaker hole on the device to more appropriately
+fit the dimensions of the speaker we will be using. It also looks a lot better and more like what you'd expect a speaker hole to look like compared
+to the first version of the chassis. I also added a hole for the microphone and headphone jacks on the top and bottom of the chassis respectively.
+Some further refinements will need to be made as we approach the end of the project. I'll need to figure out how we expect to attach the speaker
+and microphone to the spots they should be in. For the speaker, I am thinking of creating a small chamber under the hole we can slide the speaker into and
+glue it into place. I'll also likely need to modify the standoffs for the board inside the chassis after we figure out which screws we will be using.
+Finally I need to also consider the switch we will be using for power to the device.
