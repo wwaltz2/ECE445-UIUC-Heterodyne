@@ -22,3 +22,4 @@ Assorted pictures that I grabbed earlier today:
 ![Mixer operating with 52.3kHz and 52kHz input signals.](/Journals/evandm2/breadboard_mixer.png)
 ![High-frequency voltage ripple seen on our mixer output due to poor input isolation.](/Journals/evandm2/mixer_ripple.png)
 
+Alt text contains more info on each picture.
