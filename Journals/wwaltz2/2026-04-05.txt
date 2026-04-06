@@ -1,0 +1,14 @@
+The last week and a half has been dedicated to populating our second round board in hopes that it would work for our progress demo. We shorted a few pads, added wire connections between new terminals, and attached makeshift wires to hook it up to a power supply: all with no luck.
+
+So, I am back to designing the next iteration of firmware for our design.
+When I left off, we had finally accomplished audio playback for one sound clip on loop.
+
+Now, I need to modify the software that loads the audio so that we can have several clips on flash mem, as well as modify the MCU so that it takes a button input and only plays one at a time.
+
+First I worked on the MCU firmware: I knew I needed to add to the loop subroutine, which means I had to figure out how to disable interrupts (so that the timer interrupt would not try to read the next byte on the memory chip). Looks like there is an instruction for that: cli() and sei() would do me nicely.
+
+While debugging the breadboard we were able to make the button input work on the chip select pin, so we kept that in the firmware: however, I also included instructions so that the pin will switch between input and output (I WILL HAVE TO TEST TO MAKE SURE THIS WORKS!)
+
+Finally, I added an array which contains the locations in memory where each audio clip will start: I will populate this once I know where everything is being stored...
+
+Which brings me to the loading software: I struggled with Java and its lack of array concat functions, but I made do. Now, whenever we load audio files onto a flash IC, the software will tell us the memory offsets of each file, which will need to be hardcoded on the mcu.

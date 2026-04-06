@@ -1,4 +1,5 @@
 // text to byte serial importer for redboard and flash mem
+// developed based on AudioXfer.pde from Adafruit Industries
 
 import processing.serial.*;
 

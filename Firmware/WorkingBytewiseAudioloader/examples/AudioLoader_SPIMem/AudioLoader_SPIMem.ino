@@ -59,7 +59,7 @@ void setup() {
   int                c, index      = 0;
   uint32_t           capacity =  1048576,
                      address       = 6,
-                     bytesExpected = 59535,
+                     bytesExpected = 591704,
                      bytesReceived = 0;
 
 
@@ -83,20 +83,20 @@ void setup() {
 
 /////////////////////////////////////////////////
   //write sample rate and guess expected bytes
+  //hardcode sample rate and expected bytes on mcu floride
+  // FlashWrite(flash, 0,62);
+  // delay(300);
+  // FlashWrite(flash, 1,128);
+  // delay(300);
+  // FlashWrite(flash, 2,0);
+  // delay(300);
+  // FlashWrite(flash, 3, 2);
+  // delay(300);
+  // FlashWrite(flash, 4, 171);
+  // delay(300);
+  // FlashWrite(flash, 5, 152);
 
-  FlashWrite(flash, 0,62);
-  delay(300);
-  FlashWrite(flash, 1,128);
-  delay(300);
-  FlashWrite(flash, 2,0);
-  delay(300);
-  FlashWrite(flash, 3, 2);
-  delay(300);
-  FlashWrite(flash, 4, 171);
-  delay(300);
-  FlashWrite(flash, 5, 152);
-
-  myPageRead(0, flash);
+  // myPageRead(0, flash);
 
   /////////////////////////////////////////////////////
   Serial.println("READY");      // ACK to host
@@ -109,13 +109,14 @@ void setup() {
         bytesReceived++;
         address++;
       }else{
+        Serial.println('x');
         break;
       }
       // digitalWrite(LED, LOW);
       if((bytesReceived >= bytesExpected) || (address >= capacity)){
         break;
       }
-      //delay(300);
+      //delay(300); //do i still need this i forget
     }
     // if((c = Serial.read()) >= 0) {
     //   buffer[index++] = c;
@@ -143,7 +144,7 @@ void setup() {
     // }
   }
   digitalWrite(LED,HIGH);
-  delay(5000);
+  delay(5000); //can i make this shorter
   myPageRead(10, flash);
   Serial.println("END_PAGE");
   delay(250);
