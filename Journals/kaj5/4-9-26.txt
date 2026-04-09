@@ -1,0 +1,7 @@
+I have made a more finalized chassis design. I was able to slim down the chassis to 3.5 inches (as opposed to 5) so it should be more comfortable to hold.
+I did this by modifying the internal screw standoffs, I made them smaller and put them right next to the edges. I also slimmed down the internal walls slightly.
+I also created some holes on the top of the chassis shell for the power switch and demo button to use. They're a bit generic but should hopefully fit whatever
+switches we decide to use. If not we can always modify the case or reprint if needed. I also finalized the dials to be used. I added grooves to the sides for
+better friction during use and looked at the datasheet for the potentiometer to create the hole it will be inserted into. We should be ready to print these and
+test them out, I exported these models in formats used by 3D printers so we should all have access to them for whenever one of us gets the opportunity to print.
+As usual, an image of the latest design will be pushed with this journal.
