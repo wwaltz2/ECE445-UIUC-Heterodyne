@@ -13,7 +13,7 @@
 Adafruit_TinyFlash flash;
 uint16_t           sample_rate = 8000; //8kHz
 uint16_t           delay_count;
-uint32_t           samples = 64000;
+uint32_t           samples = 60000;
 uint32_t           audioIndex[5];
 uint8_t            data[4];
 uint8_t            audioNum;
@@ -84,7 +84,7 @@ void setup() {
     OCR0A  = (((F_CPU / 8L) + (sample_rate / 2)) / sample_rate) - 1;
   }
   TIMSK = _BV(OCIE0A); // Enable compare match, disable overflow
-  pinMode(3, INPUT_PULLUP); 
+  pinMode(3, INPUT); 
   cli();
 
 }
@@ -92,11 +92,12 @@ void setup() {
 void loop() {
   if(waiting){
     if(digitalRead(3) == LOW){
-      //cli();
+      cli();
       waiting = false;
-      //audioNum++; //uncomment once we reload all samples on flashmem
-      // if(audioNum>4) audioNum = 0;
-      pinMode(3, OUTPUT);
+      audioNum++; //uncomment once we reload all samples on flashmem
+      if(audioNum>4) audioNum = 0;
+      pinMode(3, OUTPUT); //might replace with the hardware level adjusted version to make sure out is correct
+      //https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/wiring_digital.c#L29
       flash.beginRead(audioIndex[audioNum]);
       // for(uint8_t i=0; i<4; i++) data[i] = flash.readNextByte();
       // samples     = ((uint32_t)data[0] << 24)
@@ -114,10 +115,11 @@ ISR(TIMER0_COMPA_vect) {
   if(++index >= samples) {           // End of audio data?
     index = 0;                       // We must repeat!
     flash.endRead();
-    cli();
-    // digitalWrite(3,HIGH);
-    // flash.beginRead(6);              // Skip 6 byte header
-    pinMode(3, INPUT_PULLUP);
+    cli(); //maybe move to above/before index setting
+
+    //MAYBE ADD INPUT_PULLUP FIRST
+    // pinMode(3, INPUT_PULLUP);
+    pinMode(3, INPUT);
 
     waiting = true;
   }
