@@ -13,8 +13,8 @@
 Adafruit_TinyFlash flash;
 uint16_t           sample_rate = 8000; //8kHz
 uint16_t           delay_count;
-uint32_t           samples;
-uint8_t            audioIndex[5];
+uint32_t           samples = 64000;
+uint32_t           audioIndex[5];
 uint8_t            data[4];
 uint8_t            audioNum;
 volatile uint32_t  index = 0L;
@@ -30,7 +30,7 @@ void setup() {
   audioIndex[3] = 315382;
   audioIndex[4] = 429610;
 
-  pinMode(3, INPUT_PULLUP); //will this mess with chip select?
+  
 
   // digitalWrite(3,HIGH);
   if(!(bytes = flash.begin())) {     // Flash init error?
@@ -84,23 +84,25 @@ void setup() {
     OCR0A  = (((F_CPU / 8L) + (sample_rate / 2)) / sample_rate) - 1;
   }
   TIMSK = _BV(OCIE0A); // Enable compare match, disable overflow
+  pinMode(3, INPUT_PULLUP); 
+  cli();
 
 }
 
 void loop() {
   if(waiting){
     if(digitalRead(3) == LOW){
-      cli();
+      //cli();
       waiting = false;
-      audioNum++;
-      if(audioNum>4) audioNum = 0;
+      //audioNum++; //uncomment once we reload all samples on flashmem
+      // if(audioNum>4) audioNum = 0;
       pinMode(3, OUTPUT);
       flash.beginRead(audioIndex[audioNum]);
-      for(uint8_t i=0; i<4; i++) data[i] = flash.readNextByte();
-      samples     = ((uint32_t)data[0] << 24)
-                  | ((uint32_t)data[1] << 16)
-                  | ((uint32_t)data[2] <<  8)
-                  |  (uint32_t)data[3];
+      // for(uint8_t i=0; i<4; i++) data[i] = flash.readNextByte();
+      // samples     = ((uint32_t)data[0] << 24)
+      //             | ((uint32_t)data[1] << 16)
+      //             | ((uint32_t)data[2] <<  8)
+      //             |  (uint32_t)data[3]; //uncomment once we reload all samples on flashmem
       sei();
     }
   }
@@ -112,9 +114,11 @@ ISR(TIMER0_COMPA_vect) {
   if(++index >= samples) {           // End of audio data?
     index = 0;                       // We must repeat!
     flash.endRead();
+    cli();
     // digitalWrite(3,HIGH);
     // flash.beginRead(6);              // Skip 6 byte header
     pinMode(3, INPUT_PULLUP);
+
     waiting = true;
   }
 }

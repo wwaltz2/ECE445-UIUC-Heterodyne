@@ -157,9 +157,11 @@ void fileSelected(File f){
   String s;
   while(((s = readLine()) == null) || (s.contains("READY") == false));
   for(int i=0;i<output.length;i++){
-    println(output[i]);
+//    println(output[i]);
     port.write(output[i]);
-    print(readLine());
+    s = readLine();
+    if(i % 1000 == 0) print(s);
+    if(i % (totalExpected/100) == 0) print(100*i/totalExpected);
   }
   readFirstPage();
 

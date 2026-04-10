@@ -90,11 +90,11 @@ void setup() {
   // delay(300);
   // FlashWrite(flash, 2,0);
   // delay(300);
-  // FlashWrite(flash, 3, 2);
+  // FlashWrite(flash, 3, 2); //0010
   // delay(300);
-  // FlashWrite(flash, 4, 171);
+  // FlashWrite(flash, 4, 171); //10101011
   // delay(300);
-  // FlashWrite(flash, 5, 152);
+  // FlashWrite(flash, 5, 152); //10011000
 
   // myPageRead(0, flash);
 
