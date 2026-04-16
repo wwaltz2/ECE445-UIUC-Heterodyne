@@ -1,0 +1,11 @@
+After a bit of trouble, we finally got a case printed for our device. Our first attempt at printing failed due to a technical error with the printer, I think it had
+to do with the spool likely being tangled but I didn't want to mess with the printer. After running it again with a different spool we got a solid looking print.
+There is enough room for the PCB, with the mounting holes lining up properly. Bill got some screws for the case and board which kind of worked. He said that the
+screw holes need to be bigger. He also said the dials should be shorter and flatter, similar to my first iteration. I thought a tall and long dial version would be better
+due to the closeness of the potentiometers on the PCB but I guess I was wrong since Bill said that the potentiometers don't need to be that close together. I'm
+not entirely sure how that will work since I was under the impression that the potentiometers would be soldered directly to the board where their pads are. There also
+isn't enough room to connect the batter to the PCB. This was my mistake for not allowing for enough room, but can be easily remedied. We could just cut out a section
+in order to connect the battery, we could solder the battery holders leads directly to the board, or we could just reprint with extra room for it. The dials printed
+also don't fit how I'd like them to on the potentiometers. We could run with them anyway or reprint for better fits which wouldn't take too long since they are pretty
+small components. Also the ridges I put onto the dials don't show up in the print unfortunately, I thought the printer would have enough precision for them. Not a 
+crucial thing but I found it pretty disappointing. Bill has volunteered to make some changes to the case over the weekend.
