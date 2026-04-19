@@ -13,8 +13,8 @@
 Adafruit_TinyFlash flash;
 uint16_t           sample_rate = 8000; //8kHz
 uint16_t           delay_count;
-uint32_t           samples = 60000;
-uint32_t           audioIndex[5];
+volatile uint32_t  samples;
+uint32_t           audioIndex[6];
 uint8_t            data[4];
 uint8_t            audioNum;
 volatile uint32_t  index = 0L;
@@ -29,6 +29,7 @@ void setup() {
   audioIndex[2] = 198056;
   audioIndex[3] = 315382;
   audioIndex[4] = 429610;
+  audioIndex[5] = 555679;
 
   
 
@@ -45,10 +46,12 @@ void setup() {
   // sample_rate = ((uint16_t)data[0] <<  8)
   //             |  (uint16_t)data[1];
   // samples     = ((uint32_t)data[0] << 24)
-              // | ((uint32_t)data[1] << 16)
-              // | ((uint32_t)data[2] <<  8)
-              // |  (uint32_t)data[3];
+  //             | ((uint32_t)data[1] << 16)
+  //             | ((uint32_t)data[2] <<  8)
+  //             |  (uint32_t)data[3];
   // Audio begins at next byte, so DON'T endRead() here
+  // flash.endRead();
+  // lol
 
   PLLCSR |= _BV(PLLE);               // Enable 64 MHz PLL
   delayMicroseconds(100);            // Stabilize
@@ -96,6 +99,7 @@ void loop() {
       waiting = false;
       audioNum++; //uncomment once we reload all samples on flashmem
       if(audioNum>4) audioNum = 0;
+      samples = audioIndex[audioNum+1] - audioIndex[audioNum];
       pinMode(3, OUTPUT); //might replace with the hardware level adjusted version to make sure out is correct
       //https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/wiring_digital.c#L29
       flash.beginRead(audioIndex[audioNum]);
@@ -104,6 +108,7 @@ void loop() {
       //             | ((uint32_t)data[1] << 16)
       //             | ((uint32_t)data[2] <<  8)
       //             |  (uint32_t)data[3]; //uncomment once we reload all samples on flashmem
+      
       sei();
     }
   }
