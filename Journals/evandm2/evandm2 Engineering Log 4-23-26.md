@@ -25,4 +25,5 @@ We also did our mock presentation and got some great feedback.
 * Nothing about tariffs or overseas shipping, lol
 * Future directions and improvements
 * Software tests/verification
+* One slide each for oscillator and mixer verification
 * For me specifically: prepare for question about how op-amp oscillator works
