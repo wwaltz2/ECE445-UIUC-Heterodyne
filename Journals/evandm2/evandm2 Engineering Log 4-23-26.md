@@ -3,7 +3,7 @@
 April 23, 2026\
 Evan McGowan
 
-Excellent troubleshooting progress today.
+Excellent troubleshooting progress today. Still a lot to do before I'm comfortable, but did a ton. Gayatri said there's a good chance that if we can explain *why* things are going wrong in our circuit, we will do just fine in the demo. We'll have a working breadboard, at least. Everything on there has been tested...but the analog audio output leaves some to be desired as I'll discuss below.
 
 On the analog side:
 Determined that our oscillator and microphone were fully functional, with the microphone being able to peak at 6V. However, still having trouble getting output to the speaker and even into the audio amplifier. Until I had a realization out of nowhere! What if it's because our bias voltage was too high?
@@ -25,3 +25,4 @@ We also did our mock presentation and got some great feedback.
 * Nothing about tariffs or overseas shipping, lol
 * Future directions and improvements
 * Software tests/verification
+* For me specifically: prepare for question about how op-amp oscillator works
