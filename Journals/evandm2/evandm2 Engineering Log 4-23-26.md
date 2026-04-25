@@ -27,3 +27,16 @@ We also did our mock presentation and got some great feedback.
 * Software tests/verification
 * One slide each for oscillator and mixer verification
 * For me specifically: prepare for question about how op-amp oscillator works
+
+Update later in the evening: I went back to the lab for a couple of hours to continue troubleshooting. I removed the IC that switches between digital and analog audio, seems that it was defective or something. The analog part was interfering with the digital audio output, so once it was removed, I was able to hardwire the digital audio to our audio amplifier and hear the bat call that Bill uploaded to the flash memory successfully. Shorting R24 and removing R25 (resistors that were meant to be voltage dividers) made the digital audio output possible in the first place, so that's good to note.
+
+The mixer was still not working, but I investigated the PCB and found that the traces to a capacitor were wired incorrectly. After severing some traces and putting down bodge wires, the mixer works! I verified its operation with the waveform generator and oscillator set to 40kHz, yielding this:
+![Mixer output on our PCB.](/Journals/evandm2/PCB_mixer.png)
+Time-domain response and FFT are shown, indicating a separation of 20dB from the mixed-down frequency and the 40kHz input signals. Isolation could be further improved by using a higher-order low-pass filter, but we did not include this in our design, believing it would be good enough as the higher-frequency signals can't be heard anyway. This does worsen battery life, though.
+
+Things that are left to fix:
+
+- Power never truly turning off without hard disconnect
+- Mixer level shift, analog audio might not pass into amplifier
+- Analog/digital switch soldering + troubleshooting
+- Load more bat calls onto device (not particularly necessary though)
