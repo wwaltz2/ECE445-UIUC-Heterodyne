@@ -58,8 +58,8 @@ void setup() {
   //uint8_t            buffer[256];
   int                c, index      = 0;
   uint32_t           capacity =  1048576,
-                     address       = 6,
-                     bytesExpected = 591704,
+                     address       = 0,
+                     bytesExpected = 959050,
                      bytesReceived = 0;
 
 

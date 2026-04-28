@@ -118,11 +118,10 @@ void fileSelected(File f){
     
    port.write("ERASE"); // Issue erase command now, process audio while it works
    
-   File[] files = {new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/Billy8kHz.wav"),
-                   new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/Candyland8kHz.wav"),
-                   new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/Lemon8kHz.wav"),
-                   new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/Magic8kHz.wav"),
-                   new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/Oskee8kHz.wav")};
+   File[] files = {new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/FinalFiles/Oskee.wav"),
+                   new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/FinalFiles/EasternRedBat.wav"),
+                   new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/FinalFiles/IndianaBat.wav"),
+                   new File("D:/LAST SEMESTER/ECE445-UIUC-Heterodyne/Firmware/WAV Files/FinalFiles/BigBrownBat.wav")};
 
    int totalExpected = 0;
    
@@ -130,7 +129,7 @@ void fileSelected(File f){
    for(int i = 0; i<files.length; i++){
      byte[] file = loadBytes(files[i]);
      fileBytes[i] = file;
-     totalExpected += (file.length + 4);
+     totalExpected += file.length;
    }
    
    byte[] output = new byte[totalExpected];
@@ -141,12 +140,12 @@ void fileSelected(File f){
     int samples = file.length;
     println("file number: ", i, "has mem location: ", offset);
 
-    output[offset + 0] = (byte)(samples >> 24);
-    output[offset + 1] = (byte)(samples >> 16);
-    output[offset + 2] = (byte)(samples >> 8);
-    output[offset + 3] = (byte)(samples);
-
-    offset += 4;
+//    output[offset + 0] = (byte)(samples >> 24);
+//    output[offset + 1] = (byte)(samples >> 16);
+//    output[offset + 2] = (byte)(samples >> 8);
+//    output[offset + 3] = (byte)(samples);
+//
+//    offset += 4;
 
     arrayCopy(file, 0, output, offset, samples);
     offset += samples;
@@ -156,6 +155,7 @@ void fileSelected(File f){
   int c;
   String s;
   while(((s = readLine()) == null) || (s.contains("READY") == false));
+  println("we get here");
   for(int i=0;i<output.length;i++){
 //    println(output[i]);
     port.write(output[i]);
