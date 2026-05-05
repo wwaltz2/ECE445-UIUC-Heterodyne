@@ -144,7 +144,7 @@ void setup() {
     // }
   }
   digitalWrite(LED,HIGH);
-  delay(5000); //can i make this shorter
+  delay(5000); 
   myPageRead(10, flash);
   Serial.println("END_PAGE");
   delay(250);

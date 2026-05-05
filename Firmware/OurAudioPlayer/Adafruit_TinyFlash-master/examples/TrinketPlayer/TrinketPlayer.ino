@@ -38,20 +38,6 @@ void setup() {
   }
   // delay(2000);
 
-
-  // First six bytes contain sample rate, number of samples
-  // flash.beginRead(0);
-  // for(uint8_t i=0; i<4; i++) data[i] = flash.readNextByte();
-  // sample_rate = ((uint16_t)data[0] <<  8)
-  //             |  (uint16_t)data[1];
-  // samples     = ((uint32_t)data[0] << 24)
-  //             | ((uint32_t)data[1] << 16)
-  //             | ((uint32_t)data[2] <<  8)
-  //             |  (uint32_t)data[3];
-  // Audio begins at next byte, so DON'T endRead() here
-  // flash.endRead();
-  // lol
-
   PLLCSR |= _BV(PLLE);               // Enable 64 MHz PLL
   delayMicroseconds(100);            // Stabilize
   while(!(PLLCSR & _BV(PLOCK)));     // Wait for it...
@@ -68,15 +54,6 @@ void setup() {
 
   pinMode(4, OUTPUT);                // Enable PWM output pin
 
-  // Set up Timer/Counter0 for sample-playing interrupt.
-  // TIMER0_OVF_vect is already in use by the Arduino runtime,
-  // so TIMER0_COMPA_vect is used.  This code alters the timer
-  // interval, making delay(), micros(), etc. useless (the
-  // overflow interrupt is therefore disabled).
-
-  // Timer resolution is limited to either 0.125 or 1.0 uS,
-  // so it's rare that the playback rate will precisely match
-  // the data, but the difference is usually imperceptible.
   TCCR0A = _BV(WGM01) | _BV(WGM00);  // Mode 7 (fast PWM)
   if(sample_rate >= 31250) {
     TCCR0B = _BV(WGM02) | _BV(CS00); // 1:1 prescale
@@ -98,15 +75,10 @@ void loop() {
       waiting = false;
       if(audioNum>3) audioNum = 1;
       samples = audioIndex[audioNum+1] - audioIndex[audioNum];
-      pinMode(3, OUTPUT); //might replace with the hardware level adjusted version to make sure out is correct
-      //https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/wiring_digital.c#L29
+      pinMode(3, OUTPUT); 
       flash.beginRead(audioIndex[audioNum]);
-      // for(uint8_t i=0; i<4; i++) data[i] = flash.readNextByte();
-      // samples     = ((uint32_t)data[0] << 24)
-      //             | ((uint32_t)data[1] << 16)
-      //             | ((uint32_t)data[2] <<  8)
-      //             |  (uint32_t)data[3]; //uncomment once we reload all samples on flashmem
-      audioNum++; //uncomment once we reload all samples on flashmem
+
+      audioNum++; 
       sei();
     }
   }
@@ -116,12 +88,10 @@ ISR(TIMER0_COMPA_vect) {
   if(waiting) return;
   OCR1B = flash.readNextByte();      // Read flash, write PWM reg.
   if(++index >= samples) {           // End of audio data?
-    index = 0;                       // We must repeat!
+    index = 0;                      
     flash.endRead();
-    cli(); //maybe move to above/before index setting
+    cli(); 
 
-    //MAYBE ADD INPUT_PULLUP FIRST
-    // pinMode(3, INPUT_PULLUP);
     pinMode(3, INPUT);
 
     waiting = true;
