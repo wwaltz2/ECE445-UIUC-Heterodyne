@@ -1,0 +1,6 @@
+Final journal before the end of the semester (so much for being more consistent). With some help from bill, we made a finalized design for the chassis with an intuitive way
+to put it together and fit everything required. It also contains some additional dedicated holes in the top of the chassis to hold our switches, buttons, and the LED. An image
+under this date will also be pushed. We had our final demos and presentations and I believe they went reasonably well. The range on our device is quite limited and not
+exactly practical, so this project will have to be picked up by another group in the future. We outlined some solid guidance for any future groups in the future. They will
+also likely have access to the contents of this repository and any needed documents for future improvements. Overall, this was a solid project for a good last semester and 
+a valuable experience.
